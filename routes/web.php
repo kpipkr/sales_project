@@ -26,3 +26,11 @@ Route::get('/target', function () {
 Route::get('/capaian', function () {
     return view('capaian');
 });
+
+Route::get('/laporan', function () {
+    return view('laporan');
+});
+
+Route::get('/customer', function () {
+    return view('customer');
+});

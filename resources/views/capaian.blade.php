@@ -86,7 +86,7 @@
                   <div class="nav-link d-flex">
                     <a class="text-white" href="#"><i class="mdi mdi-refresh"></i></a>
                   </div>
-               </li>
+                </li>
               </ul>
             </div>
           </nav>
@@ -102,166 +102,102 @@
                </div>
              </div>
              <!-- doughnut chart row starts -->
-                <div class="card">
-                  <div class="card-body">
-                    <h4 class="card-title">Striped Table</h4>
-                    <p class="card-description"> Add class <code>.table-striped</code>
-                    </p>
-                    <div class="table-responsive">
-                      <table class="table table-striped">
-                        <thead>
-                          <tr>
-                            <th>User</th>
-                            <th>First name</th>
-                            <th>Progress</th>
-                            <th>Amount</th>
-                            <th>Deadline</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td class="py-1">
-                              <img src="../../../assets/images/faces-clipart/pic-1.png" alt="image" />
-                            </td>
-                            <td>Herman Beck</td>
-                            <td>
-                              <div class="progress">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div>
-                            </td>
-                            <td>$ 77.99</td>
-                            <td>May 15, 2015</td>
-                          </tr>
-                          <tr>
-                            <td class="py-1">
-                              <img src="../../../assets/images/faces-clipart/pic-2.png" alt="image" />
-                            </td>
-                            <td>Messsy Adam</td>
-                            <td>
-                              <div class="progress">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div>
-                            </td>
-                            <td>$245.30</td>
-                            <td>July 1, 2015</td>
-                          </tr>
-                          <tr>
-                            <td class="py-1">
-                              <img src="../../../assets/images/faces-clipart/pic-3.png" alt="image" />
-                            </td>
-                            <td>John Richards</td>
-                            <td>
-                              <div class="progress">
-                                <div class="progress-bar bg-warning" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div>
-                            </td>
-                            <td>$138.00</td>
-                            <td>Apr 12, 2015</td>
-                          </tr>
-                          <tr>
-                            <td class="py-1">
-                              <img src="../../../assets/images/faces-clipart/pic-4.png" alt="image" />
-                            </td>
-                            <td>Peter Meggik</td>
-                            <td>
-                              <div class="progress">
-                                <div class="progress-bar bg-primary" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div>
-                            </td>
-                            <td>$ 77.99</td>
-                            <td>May 15, 2015</td>
-                          </tr>
-                          <tr>
-                            <td class="py-1">
-                              <img src="../../../assets/images/faces-clipart/pic-1.png" alt="image" />
-                            </td>
-                            <td>Edward</td>
-                            <td>
-                              <div class="progress">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div>
-                            </td>
-                            <td>$ 160.25</td>
-                            <td>May 03, 2015</td>
-                          </tr>
-                          <tr>
-                            <td class="py-1">
-                              <img src="../../../assets/images/faces-clipart/pic-2.png" alt="image" />
-                            </td>
-                            <td>John Doe</td>
-                            <td>
-                              <div class="progress">
-                                <div class="progress-bar bg-info" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div>
-                            </td>
-                            <td>$ 123.21</td>
-                            <td>April 05, 2015</td>
-                          </tr>
-                          <tr>
-                            <td class="py-1">
-                              <img src="../../../assets/images/faces-clipart/pic-3.png" alt="image" />
-                            </td>
-                            <td>Henry Tom</td>
-                            <td>
-                              <div class="progress">
-                                <div class="progress-bar bg-warning" role="progressbar" style="width: 20%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div>
-                            </td>
-                            <td>$ 150.00</td>
-                            <td>June 16, 2015</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          <!-- last row starts here -->
-          <div class="row">
-            <div class="col-sm-6 col-xl-4 stretch-card grid-margin">
-              <div class="card">
-
+             <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Nama Karyawan : </h4>
+              </p>
+              <div class="table-responsive">
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th><center>No.</center></th>
+                      <th><center>Nama Perusahaan</center></th>
+                      <th><center>Catatan</center></th>
+                      <th><center>Action</center></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <center>1</center>
+                      </td>
+                      <td>PT. Maju Bersama</td>
+                      <td>
+                        <div class="catatan">
+                          -
+                        </div>
+                      </td>
+                      <td><center><button type="button" class="btn btn-secondary">Detail</button></center></button></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <center>2</center>
+                      </td>
+                      <td></td>
+                      <td>
+                        <div class="catatan">
+                          Tidak bisa kunjungan karena ...
+                        </div>
+                      </td>
+                      <td>
+                        <center>
+                          <button type="button" class="btn btn-success"><a><span class="mdi mdi-check"></span></a></button>
+                          <button type="button" class="btn btn-danger"><a><span class="mdi mdi-close"></span></a></button>
+                        </center>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
-          <!-- content-wrapper ends -->
-          <!-- partial:partials/_footer.html -->
-          <footer class="footer">
-            <div class="container">
-              <div class="d-sm-flex justify-content-center justify-content-sm-between">
-                <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © KPI Pakerin 2021</span>
-                <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"><a href="https://www.pakerin.co.id/" target="_blank">PT. Pakerin</a></span>
-              </div>
-            </div>
-          </footer>
-          <!-- partial -->
         </div>
-        <!-- main-panel ends -->
+        <!-- last row starts here -->
+        <div class="row">
+          <div class="col-sm-6 col-xl-4 stretch-card grid-margin">
+            <div class="card">
+
+            </div>
+          </div>
+        </div>
+        <!-- content-wrapper ends -->
+        <!-- partial:partials/_footer.html -->
+        <footer class="footer">
+          <div class="container">
+            <div class="d-sm-flex justify-content-center justify-content-sm-between">
+              <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © KPI Pakerin 2021</span>
+              <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"><a href="https://www.pakerin.co.id/" target="_blank">PT. Pakerin</a></span>
+            </div>
+          </div>
+        </footer>
+        <!-- partial -->
       </div>
-      <!-- page-body-wrapper ends -->
+      <!-- main-panel ends -->
     </div>
-    <!-- container-scroller -->
-    <!-- plugins:js -->
-    <script src="../assets/vendors/js/vendor.bundle.base.js"></script>
-    <!-- endinject -->
-    <!-- Plugin js for this page -->
-    <script src="../assets/vendors/jquery-bar-rating/jquery.barrating.min.js"></script>
-    <script src="../assets/vendors/chart.js/Chart.min.js"></script>
-    <script src="../assets/vendors/flot/jquery.flot.js"></script>
-    <script src="../assets/vendors/flot/jquery.flot.resize.js"></script>
-    <script src="../assets/vendors/flot/jquery.flot.categories.js"></script>
-    <script src="../assets/vendors/flot/jquery.flot.fillbetween.js"></script>
-    <script src="../assets/vendors/flot/jquery.flot.stack.js"></script>
-    <!-- End plugin js for this page -->
-    <!-- inject:js -->
-    <script src="../assets/js/off-canvas.js"></script>
-    <script src="../assets/js/hoverable-collapse.js"></script>
-    <script src="../assets/js/misc.js"></script>
-    <script src="../assets/js/settings.js"></script>
-    <script src="../assets/js/todolist.js"></script>
-    <!-- endinject -->
-    <!-- Custom js for this page -->
-    <script src="../assets/js/dashboard.js"></script>
-    <!-- End custom js for this page -->
-  </body>
-  </html>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+  <!-- plugins:js -->
+  <script src="../assets/vendors/js/vendor.bundle.base.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page -->
+  <script src="../assets/vendors/jquery-bar-rating/jquery.barrating.min.js"></script>
+  <script src="../assets/vendors/chart.js/Chart.min.js"></script>
+  <script src="../assets/vendors/flot/jquery.flot.js"></script>
+  <script src="../assets/vendors/flot/jquery.flot.resize.js"></script>
+  <script src="../assets/vendors/flot/jquery.flot.categories.js"></script>
+  <script src="../assets/vendors/flot/jquery.flot.fillbetween.js"></script>
+  <script src="../assets/vendors/flot/jquery.flot.stack.js"></script>
+  <!-- End plugin js for this page -->
+  <!-- inject:js -->
+  <script src="../assets/js/off-canvas.js"></script>
+  <script src="../assets/js/hoverable-collapse.js"></script>
+  <script src="../assets/js/misc.js"></script>
+  <script src="../assets/js/settings.js"></script>
+  <script src="../assets/js/todolist.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page -->
+  <script src="../assets/js/dashboard.js"></script>
+  <!-- End custom js for this page -->
+</body>
+</html>

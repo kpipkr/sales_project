@@ -60,7 +60,7 @@
                 <li class="nav-item">
                   <a class="nav-link" href="index.html">
                     <i class="mdi mdi-target menu-icon"></i>
-                    <span class="menu-title"><b>Target Kunjungan</b></span>
+                    <span class="menu-title">Target Kunjungan</span>
                   </a>
                 </li>
 
@@ -79,14 +79,14 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#">
                     <i class="mdi mdi-menu menu-icon"></i>
-                    <span class="menu-title">Customer</span>
+                    <span class="menu-title"><b>Customer</b></span>
                   </a>
                 </li>
                 <li class="nav-item">
                   <div class="nav-link d-flex">
                     <a class="text-white" href="#"><i class="mdi mdi-refresh"></i></a>
                   </div>
-               </li>
+                </li>
               </ul>
             </div>
           </nav>
@@ -102,71 +102,91 @@
                </div>
              </div>
              <!-- doughnut chart row starts -->
-             <div class="row">
-              <div class="col-sm-12 stretch-card grid-margin">
-                <div class="card">
-                  <div class="row">
-                    <div class="col-md-4">
-                      <div class="card border-0">
-                        <div class="card-body">
-                          <div class="card-title">Target Kunjungan (date + 1) : ........</div>
-                          <div class="col-md-4">
-                            <button type="edit" class="btn btn-primary mb-2"><a><span class="mdi mdi-pencil"></span></a></button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+             <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">List Karyawan</h4>
+              </p>
+              <div class="table-responsive">
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th><center>No.</center></th>
+                      <th><center>Nama</center></th>
+                      <th><center>Target Bulanan</center></th>
+                      <th><center>Tercapai</center></th>
+                      <th><center>Tidak Tercapai</center></th>
+                      <th><center>Ditolerir</center></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><center>1</center></td>
+                      <td>Nicholas Saputera</td>
+                      <td><center>90</center></td>
+                      <td><center>85</center></td>
+                      <td><center>3</center></td>
+                      <td><center>2</center></td>
+                    </tr>
+                    <tr>
+                      <td><center>2</center></td>
+                      <td>Dian Sastro</td>
+                      <td><center>90</center></td>
+                      <td><center>87</center></td>
+                      <td><center>3</center></td>
+                      <td><center>0</center></td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
-          <!-- last row starts here -->
-          <div class="row">
-            <div class="col-sm-6 col-xl-4 stretch-card grid-margin">
-              <div class="card">
-
-              </div>
-            </div>
-          </div>
-          <!-- content-wrapper ends -->
-          <!-- partial:partials/_footer.html -->
-          <footer class="footer">
-            <div class="container">
-              <div class="d-sm-flex justify-content-center justify-content-sm-between">
-                <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © KPI Pakerin 2021</span>
-                <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"><a href="https://www.pakerin.co.id/" target="_blank">PT. Pakerin</a></span>
-              </div>
-            </div>
-          </footer>
-          <!-- partial -->
         </div>
-        <!-- main-panel ends -->
+        <!-- last row starts here -->
+        <div class="row">
+          <div class="col-sm-6 col-xl-4 stretch-card grid-margin">
+            <div class="card">
+
+            </div>
+          </div>
+        </div>
+        <!-- content-wrapper ends -->
+        <!-- partial:partials/_footer.html -->
+        <footer class="footer">
+          <div class="container">
+            <div class="d-sm-flex justify-content-center justify-content-sm-between">
+              <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © KPI Pakerin 2021</span>
+              <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"><a href="https://www.pakerin.co.id/" target="_blank">PT. Pakerin</a></span>
+            </div>
+          </div>
+        </footer>
+        <!-- partial -->
       </div>
-      <!-- page-body-wrapper ends -->
+      <!-- main-panel ends -->
     </div>
-    <!-- container-scroller -->
-    <!-- plugins:js -->
-    <script src="../assets/vendors/js/vendor.bundle.base.js"></script>
-    <!-- endinject -->
-    <!-- Plugin js for this page -->
-    <script src="../assets/vendors/jquery-bar-rating/jquery.barrating.min.js"></script>
-    <script src="../assets/vendors/chart.js/Chart.min.js"></script>
-    <script src="../assets/vendors/flot/jquery.flot.js"></script>
-    <script src="../assets/vendors/flot/jquery.flot.resize.js"></script>
-    <script src="../assets/vendors/flot/jquery.flot.categories.js"></script>
-    <script src="../assets/vendors/flot/jquery.flot.fillbetween.js"></script>
-    <script src="../assets/vendors/flot/jquery.flot.stack.js"></script>
-    <!-- End plugin js for this page -->
-    <!-- inject:js -->
-    <script src="../assets/js/off-canvas.js"></script>
-    <script src="../assets/js/hoverable-collapse.js"></script>
-    <script src="../assets/js/misc.js"></script>
-    <script src="../assets/js/settings.js"></script>
-    <script src="../assets/js/todolist.js"></script>
-    <!-- endinject -->
-    <!-- Custom js for this page -->
-    <script src="../assets/js/dashboard.js"></script>
-    <!-- End custom js for this page -->
-  </body>
-  </html>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+  <!-- plugins:js -->
+  <script src="../assets/vendors/js/vendor.bundle.base.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page -->
+  <script src="../assets/vendors/jquery-bar-rating/jquery.barrating.min.js"></script>
+  <script src="../assets/vendors/chart.js/Chart.min.js"></script>
+  <script src="../assets/vendors/flot/jquery.flot.js"></script>
+  <script src="../assets/vendors/flot/jquery.flot.resize.js"></script>
+  <script src="../assets/vendors/flot/jquery.flot.categories.js"></script>
+  <script src="../assets/vendors/flot/jquery.flot.fillbetween.js"></script>
+  <script src="../assets/vendors/flot/jquery.flot.stack.js"></script>
+  <!-- End plugin js for this page -->
+  <!-- inject:js -->
+  <script src="../assets/js/off-canvas.js"></script>
+  <script src="../assets/js/hoverable-collapse.js"></script>
+  <script src="../assets/js/misc.js"></script>
+  <script src="../assets/js/settings.js"></script>
+  <script src="../assets/js/todolist.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page -->
+  <script src="../assets/js/dashboard.js"></script>
+  <!-- End custom js for this page -->
+</body>
+</html>
