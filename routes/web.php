@@ -14,3 +14,15 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/index', function () {
+    return view('index');
+});
+
+Route::get('/target', function () {
+    return view('target');
+});
+
+Route::get('/capaian', function () {
+    return view('capaian');
+});
