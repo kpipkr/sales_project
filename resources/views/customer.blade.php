@@ -96,44 +96,56 @@
           <div class="main-panel">
             <div class="content-wrapper pb-0">
               <!-- table row starts here -->
-              <div class="row">
-
-               <div class="col-xl-8 stretch-card grid-margin">
-               </div>
-             </div>
              <!-- doughnut chart row starts -->
              <div class="card">
               <div class="card-body">
-                <h4 class="card-title">List Karyawan</h4>
-              </p>
+                <h4 class="card-title">List Customer</h4>
+                <td><button type="button" class="btn btn-primary">Tambah</button></td>
               <div class="table-responsive">
                 <table class="table table-striped">
                   <thead>
                     <tr>
                       <th><center>No.</center></th>
-                      <th><center>Nama</center></th>
-                      <th><center>Target Bulanan</center></th>
-                      <th><center>Tercapai</center></th>
-                      <th><center>Tidak Tercapai</center></th>
-                      <th><center>Ditolerir</center></th>
+                      <th><center>Nama Perusahaan</center></th>
+                      <th><center>Alamat</center></th>
+                      <th><center>Contact Person</center></th>
+                      <th><center>Action</center></th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td><center>1</center></td>
-                      <td>Nicholas Saputera</td>
-                      <td><center>90</center></td>
-                      <td><center>85</center></td>
-                      <td><center>3</center></td>
-                      <td><center>2</center></td>
+                      <td>
+                        <center>1</center>
+                      </td>
+                      <td>PT. Maju Bersama</td>
+                      <td>
+                        <div class="alamat">
+                          Jln. Ngimbangan no. 70 Pungging, Kab. Mojokerto 64157
+                        </div>
+                      </td>
+                      <td>
+                        <div class="cp">
+                          <center>081234567890</center>
+                        </div>
+                      </td>
+                      <td><center><button type="button" class="btn btn-secondary">Detail</center></button></td>
                     </tr>
                     <tr>
-                      <td><center>2</center></td>
-                      <td>Dian Sastro</td>
-                      <td><center>90</center></td>
-                      <td><center>87</center></td>
-                      <td><center>3</center></td>
-                      <td><center>0</center></td>
+                      <td>
+                        <center>2</center>
+                      </td>
+                      <td>PT. Sentosa Selamanya</td>
+                      <td>
+                        <div class="alamat">
+                          Jln. Prambon no. 50 Surabaya 62145
+                        </div>
+                      </td>
+                      <td>
+                        <div class="cp">
+                          <center>081234567890</center>
+                        </div>
+                      </td>
+                      <td><center><button type="button" class="btn btn-secondary">Detail</button></center></button></td>
                     </tr>
                   </tbody>
                 </table>

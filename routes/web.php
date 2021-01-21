@@ -34,3 +34,7 @@ Route::get('/laporan', function () {
 Route::get('/customer', function () {
     return view('customer');
 });
+
+Route::get('/tambahcustomer', function () {
+    return view('tambahcustomer');
+});

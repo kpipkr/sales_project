@@ -96,11 +96,6 @@
           <div class="main-panel">
             <div class="content-wrapper pb-0">
               <!-- table row starts here -->
-              <div class="row">
-
-               <div class="col-xl-8 stretch-card grid-margin">
-               </div>
-             </div>
              <!-- doughnut chart row starts -->
              <div class="row">
               <div class="col-sm-12 stretch-card grid-margin">
