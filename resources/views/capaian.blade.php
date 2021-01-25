@@ -108,13 +108,21 @@
               <div class="card">
                 <div class="card-body">
                   <h4 class="card-title">Nama Karyawan</h4>
-                  <select name="namakaryawan" class="selectpicker form-control" data-live-search="true">
-                    <option value="namakaryawan">A</option>
-                    <option value="namakaryawan">B</option>
-                    <option value="namakaryawan">C</option>
-                    <option value="namakaryawan">D</option>
-                  </select>
-                  <br>
+                  <form class="forms-sample">
+                    <div class="container">
+                      <div class="panel panel-default">
+                        <div class="panel-body">
+                          <div class="form-group">
+                            <select name="namakaryawan" class="selectpicker form-control" data-live-search="true">
+                              <option>A</option>
+                              <option>B</option>
+                              <option>C</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
                   <div class="table-responsive">
                     <table class="table table-striped">
                       <thead>
