@@ -58,33 +58,39 @@
             <div class="container">
               <ul class="nav page-navigation">
                 <li class="nav-item">
-                  <a class="nav-link" href="index.html">
+                  <a class="nav-link" href="target">
                     <i class="mdi mdi-target menu-icon"></i>
                     <span class="menu-title"><b>Target Kunjungan</b></span>
                   </a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <a class="nav-link" href="capaian">
                     <i class="mdi mdi-chart-bar menu-icon"></i>
                     <span class="menu-title">Capaian</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <a class="nav-link" href="laporan">
                     <i class="mdi mdi-table-large menu-icon"></i>
                     <span class="menu-title">Laporan</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <a class="nav-link" href="customer">
                     <i class="mdi mdi-menu menu-icon"></i>
                     <span class="menu-title">Customer</span>
                   </a>
                 </li>
                 <li class="nav-item">
                   <div class="nav-link d-flex">
-                    <a class="text-white" href="#"><i class="mdi mdi-refresh"></i></a>
+                    <a class="text-white" onClick="document.location.reload(true)"><i class="mdi mdi-refresh"></i></a>
+                    <script>
+                      function reloadpage()
+                      {
+                        location.reload()
+                      }
+                    </script>
                   </div>
                </li>
               </ul>
@@ -106,7 +112,7 @@
                         <div class="card-body">
                           <div class="card-title">Target Kunjungan (date + 1) : ........</div>
                           <div class="col-md-4">
-                            <button type="edit" class="btn btn-primary mb-2"><a><span class="mdi mdi-pencil"></span></a></button>
+                            <button type="edit" class="btn btn-primary mb-2 pull-right"><a><span class="mdi mdi-pencil"></span></a></button>
                           </div>
                         </div>
                       </div>

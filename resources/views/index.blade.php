@@ -59,44 +59,50 @@
             <div class="container">
               <ul class="nav page-navigation">
                 <li class="nav-item">
-                  <a class="nav-link" href="index.html">
+                  <a class="nav-link" href="target">
                     <i class="mdi mdi-target menu-icon"></i>
                     <span class="menu-title">Target Kunjungan</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <a class="nav-link" href="kunjungan">
                     <i class="mdi mdi-home-circle menu-icon"></i>
                     <span class="menu-title">Kunjungan</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <a class="nav-link" href="capaian">
                     <i class="mdi mdi-chart-bar menu-icon"></i>
                     <span class="menu-title">Capaian</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <a class="nav-link" href="laporan">
                     <i class="mdi mdi-table-large menu-icon"></i>
                     <span class="menu-title">Laporan</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <a class="nav-link" href="customer">
                     <i class="mdi mdi-menu menu-icon"></i>
                     <span class="menu-title">Customer</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link">
+                  <a href="user" class="nav-link">
                     <i class="mdi mdi-contacts menu-icon"></i>
                     <span class="menu-title">User</span></a>
                   </li>
                   <li class="nav-item">
                     <div class="nav-link d-flex">
-                      <a class="text-white" href="#"><i class="mdi mdi-refresh"></i></a>
-                    </div>
+                    <a class="text-white" onClick="document.location.reload(true)"><i class="mdi mdi-refresh"></i></a>
+                    <script>
+                      function reloadpage()
+                      {
+                        location.reload()
+                      }
+                    </script>
+                  </div>
                   </li>
                 </ul>
               </div>
@@ -107,96 +113,24 @@
             <div class="main-panel">
               <div class="content-wrapper pb-0">
                 <!-- first row starts here -->
-                <div class="row">
-                  <div class="col-xl-9 stretch-card grid-margin">
-                    <div>
-                      <div class="d-flex flex-wrap pt-2 justify-content-between sales-header-right">
-                        <div class="d-flex mr-3 mt-2 mt-sm-0">
-                          <div class="pl-2">
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-3 stretch-card grid-margin">
-                  </div>
-                </div>
+                
                 <!-- chart row starts here -->
-                <div class="row">
-                  <div class="col-sm-6 stretch-card grid-margin">
-                  </div>
-                </div>
+                
                 <!-- image card row starts here -->
-                <div class="row">
-                  <div class="col-sm-4 stretch-card grid-margin">
-                  </div>
-                </div>
+                
                 <!-- table row starts here -->
-                <div class="row">
+                
              <!--  <div class="col-xl-4 grid-margin">
               
              </div> -->
              <div class="col-xl-8 stretch-card grid-margin">
-              <div class="card">
-              </div>
+              
             </div>
           </div>
           <!-- doughnut chart row starts -->
-          <div class="row">
-            <div class="col-sm-12 stretch-card grid-margin">
-              <div class="card">
-                <div class="row">
-                  <div class="col-md-4">
-                    <div class="card border-0">
-                      <div class="card-body">
-                        <div class="card-title">Target Kunjungan</div>
-                        <div class="d-flex flex-wrap">
-                          <div class="doughnut-wrapper w-50">
-                            <canvas id="doughnutChart1" width="100" height="100"></canvas>
-                          </div>
-                          <div id="doughnut-chart-legend" class="pl-lg-3 rounded-legend align-self-center flex-grow legend-vertical legend-bottom-left"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="card border-0">
-                      <div class="card-body">
-                        <div class="card-title">News Sessions</div>
-                        <div class="d-flex flex-wrap">
-                          <div class="doughnut-wrapper w-50">
-                            <canvas id="doughnutChart2" width="100" height="100"></canvas>
-                          </div>
-                          <div id="doughnut-chart-legend2" class="pl-lg-3 rounded-legend align-self-center flex-grow legend-vertical legend-bottom-left"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="card border-0">
-                      <div class="card-body">
-                        <div class="card-title">Device Sessions</div>
-                        <div class="d-flex flex-wrap">
-                          <div class="doughnut-wrapper w-50">
-                            <canvas id="doughnutChart3" width="100" height="100"></canvas>
-                          </div>
-                          <div id="doughnut-chart-legend3" class="pl-lg-3 rounded-legend align-self-center flex-grow legend-vertical legend-bottom-left"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          
           <!-- last row starts here -->
-          <div class="row">
-            <div class="col-sm-6 col-xl-4 stretch-card grid-margin">
-              <div class="card">
-                
-              </div>
-            </div>
-          </div>
+          
           <!-- content-wrapper ends -->
           <!-- partial:partials/_footer.html -->
           <footer class="footer">
@@ -208,11 +142,8 @@
             </div>
           </footer>
           <!-- partial -->
-        </div>
         <!-- main-panel ends -->
-      </div>
       <!-- page-body-wrapper ends -->
-    </div>
     <!-- container-scroller -->
     <!-- plugins:js -->
     <script src="../assets/vendors/js/vendor.bundle.base.js"></script>

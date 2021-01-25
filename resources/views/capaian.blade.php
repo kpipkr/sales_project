@@ -13,6 +13,8 @@
   <!-- Plugin css for this page -->
   <link rel="stylesheet" href="../assets/vendors/jquery-bar-rating/css-stars.css" />
   <link rel="stylesheet" href="../assets/vendors/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/css/bootstrap-select.min.css">
   <!-- End plugin css for this page -->
   <!-- inject:css -->
   <!-- endinject -->
@@ -58,7 +60,7 @@
             <div class="container">
               <ul class="nav page-navigation">
                 <li class="nav-item">
-                  <a class="nav-link" href="index">
+                  <a class="nav-link" href="target">
                     <i class="mdi mdi-target menu-icon"></i>
                     <span class="menu-title">Target Kunjungan</span>
                   </a>
@@ -84,7 +86,13 @@
                 </li>
                 <li class="nav-item">
                   <div class="nav-link d-flex">
-                    <a class="text-white" href="#"><i class="mdi mdi-refresh"></i></a>
+                    <a class="text-white" onClick="document.location.reload(true)"><i class="mdi mdi-refresh"></i></a>
+                    <script>
+                      function reloadpage()
+                      {
+                        location.reload()
+                      }
+                    </script>
                   </div>
                 </li>
               </ul>
@@ -100,12 +108,12 @@
               <div class="card">
                 <div class="card-body">
                   <h4 class="card-title">Nama Karyawan</h4>
-                    <select class="js-example-basic-single">
-                      <option value="namakaryawan">A</option>
-                      <option value="namakaryawan">B</option>
-                      <option value="namakaryawan">C</option>
-                      <option value="namakaryawan">D</option>
-                    </select>
+                  <select name="namakaryawan" class="selectpicker form-control" data-live-search="true">
+                    <option value="namakaryawan">A</option>
+                    <option value="namakaryawan">B</option>
+                    <option value="namakaryawan">C</option>
+                    <option value="namakaryawan">D</option>
+                  </select>
                   <br>
                   <div class="table-responsive">
                     <table class="table table-striped">
@@ -181,11 +189,8 @@
       <!-- plugins:js -->
       <script src="../assets/vendors/js/vendor.bundle.base.js"></script>
       <!-- endinject -->
-      <script src="../../../assets/vendors/select2/select2.min.js"></script>
-      <script src="../../../assets/js/select2.js"></script>
-      <script src="../../../assets/vendors/typeahead.js/typeahead.bundle.min.js"></script>
       <!-- Plugin js for this page -->
-    <script src="../../../assets/vendors/typeahead.js/typeahead.bundle.min.js"></script>
+      <script src="../../../assets/vendors/typeahead.js/typeahead.bundle.min.js"></script>
       <script src="../assets/vendors/jquery-bar-rating/jquery.barrating.min.js"></script>
       <script src="../assets/vendors/chart.js/Chart.min.js"></script>
       <script src="../assets/vendors/flot/jquery.flot.js"></script>
@@ -201,11 +206,13 @@
       <script src="../assets/js/settings.js"></script>
       <script src="../assets/js/todolist.js"></script>
       <!-- endinject -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/js/bootstrap-select.min.js"></script>
       <!-- Custom js for this page -->
       <script src="../assets/js/dashboard.js"></script>
       <script src="../../../assets/js/file-upload.js"></script>
-    <script src="../../../assets/js/typeahead.js"></script>
-    <script src="../../../assets/js/select2.js"></script>
+      <script src="../../../assets/js/typeahead.js"></script>
       <!-- End custom js for this page -->
     </body>
     </html>

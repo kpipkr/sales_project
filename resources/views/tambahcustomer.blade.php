@@ -84,7 +84,13 @@
                 </li>
                 <li class="nav-item">
                   <div class="nav-link d-flex">
-                    <a class="text-white" href="#"><i class="mdi mdi-refresh"></i></a>
+                    <a class="text-white" onClick="document.location.reload(true)"><i class="mdi mdi-refresh"></i></a>
+                    <script>
+                      function reloadpage()
+                      {
+                        location.reload()
+                      }
+                    </script>
                   </div>
                 </li>
               </ul>
@@ -100,7 +106,7 @@
               <div class="card">
                 <div class="card-body">
                   <div>
-                    <button type="kembali" class="btn btn-primary"><a class="text-white" href="#"><i class="mdi mdi-arrow-left-bold"></i></a></button>
+                    <button type="kembali" class="btn btn-primary"><a class="text-white" href="customer"><i class="mdi mdi-arrow-left-bold"></i></a></button>
                   </div>
                   <br>
                   <h4 class="card-title"></h4>
