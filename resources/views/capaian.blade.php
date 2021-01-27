@@ -29,6 +29,12 @@
     <div class="horizontal-menu">
       <nav class="navbar top-navbar col-lg-12 col-12 p-0">
         <div class="container">
+            <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+              <a class="navbar-brand brand-logo" href="#">
+                <img src="../assets/images/sales.png" alt="logo" />
+              </a>
+              <img src="pakerin.png" alt="logo" /></a>
+            </div>
           <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
             <ul class="navbar-nav navbar-nav-right">
               <li class="nav-item nav-profile dropdown">
