@@ -13,6 +13,8 @@
   <!-- Plugin css for this page -->
   <link rel="stylesheet" href="../assets/vendors/jquery-bar-rating/css-stars.css" />
   <link rel="stylesheet" href="../assets/vendors/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/css/bootstrap-select.min.css">
   <!-- End plugin css for this page -->
   <!-- inject:css -->
   <!-- endinject -->
@@ -105,62 +107,60 @@
               <!-- doughnut chart row starts -->
               <div class="card">
                 <div class="card-body">
+                  <h4 class="card-title">List Customer</h4>
                   <div>
-                    <button type="kembali" class="btn btn-primary"><a class="text-white" href="customer"><i class="mdi mdi-arrow-left-bold"></i></a></button>
+                    <button type="button" class="btn btn-primary pull-right mb-4"><a class="text-white" href="tambahcustomer">Tambah</a></button>
                   </div>
-                  <br>
-                  <h4 class="card-title"></h4>
-                  <form class="forms-sample">
-                    <div class="form-group">
-                      <label>Nama Perusahaan</label>
-                      <input type="text" class="form-control" id="namaperusahaan" placeholder="Nama Perusahaan" />
-                    </div>
-                    <div class="form-group">
-                      <label>Alamat Perusahaan</label>
-                      <textarea type="text" class="form-control" id="alamatperusahaan" placeholder="Alamat Perusahaan">
-                      </textarea>
-                    </div>
-                    <div class="form-group">
-                      <label>Kontak Perusahaan</label>
-                      <input type="text" class="form-control" id="kontakperusahaan" placeholder="Kontak Perusahaan" />
-                    </div>
-                    <div class="form-group">
-                      <label>Nama PIC</label>
-                      <input type="text" class="form-control" id="namapic" placeholder="Nama PIC" />
-                    </div>
-                    <div class="form-group">
-                      <label>Email PIC</label>
-                      <input type="text" class="form-control" id="emailpic" placeholder="Email PIC" />
-                    </div>
-                    <div class="form-group">
-                      <label>Kontak PIC</label>
-                      <input type="text" class="form-control" id="kontakpic" placeholder="Kontak PIC" />
-                    </div>
-                    <div class="form-group">
-                      <label>Sosial Media</label>
-                      <div class="form-group">
-                      <div class="input-group">
-                        <div class="input-group-prepend">
-                          <span class="input-group-text bg-dark text-white"><i class="mdi mdi-whatsapp"></i></span>
-                        </div>
-                        <input type="text" class="form-control" placeholder="Whatsapp" />
-                      </div>
-                      <div class="input-group">
-                        <div class="input-group-prepend">
-                          <span class="input-group-text bg-dark text-white"><i class="mdi mdi-facebook"></i></span>
-                        </div>
-                        <input type="text" class="form-control" placeholder="Facebook" />
-                      </div>
-                      <div class="input-group">
-                        <div class="input-group-prepend">
-                          <span class="input-group-text bg-dark text-white"><i class="mdi mdi-twitter"></i></span>
-                        </div>
-                        <input type="text" class="form-control" placeholder="Twitter" />
-                      </div>
-                    </div>
-                    <button type="submit" class="btn btn-primary mr-2"> Submit </button>
-                    <button class="btn btn-light">Clear</button>
-                  </form>
+                  <br><br>
+                  <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th><center>No.</center></th>
+                          <th><center>Nama Perusahaan</center></th>
+                          <th><center>Alamat</center></th>
+                          <th><center>Contact Person</center></th>
+                          <th><center>Action</center></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <center>1</center>
+                          </td>
+                          <td>PT. Maju Bersama</td>
+                          <td>
+                            <div class="alamat">
+                              Jln. Ngimbangan no. 70 Pungging, Kab. Mojokerto 64157
+                            </div>
+                          </td>
+                          <td>
+                            <div class="cp">
+                              <center>081234567890</center>
+                            </div>
+                          </td>
+                          <td><center><button type="button" class="btn btn-secondary">Detail</center></button></td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <center>2</center>
+                          </td>
+                          <td>PT. Sentosa Selamanya</td>
+                          <td>
+                            <div class="alamat">
+                              Jln. Prambon no. 50 Surabaya 62145
+                            </div>
+                          </td>
+                          <td>
+                            <div class="cp">
+                              <center>081234567890</center>
+                            </div>
+                          </td>
+                          <td><center><button type="button" class="btn btn-secondary">Detail</button></center></button></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
                 </div>
               </div>
             </div>
@@ -208,6 +208,9 @@
       <script src="../assets/js/settings.js"></script>
       <script src="../assets/js/todolist.js"></script>
       <!-- endinject -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/js/bootstrap-select.min.js"></script>
       <!-- Custom js for this page -->
       <script src="../assets/js/dashboard.js"></script>
       <!-- End custom js for this page -->

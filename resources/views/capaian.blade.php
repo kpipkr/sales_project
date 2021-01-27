@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="../assets/vendors/jquery-bar-rating/css-stars.css" />
   <link rel="stylesheet" href="../assets/vendors/font-awesome/css/font-awesome.min.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/css/bootstrap-select.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/css/bootstrap-select.min.css">
   <!-- End plugin css for this page -->
   <!-- inject:css -->
   <!-- endinject -->
@@ -110,7 +110,6 @@
                   <h4 class="card-title">Nama Karyawan</h4>
                   <form class="forms-sample">
                     <div class="container">
-                      <div class="panel panel-default">
                         <div class="panel-body">
                           <div class="form-group">
                             <select name="namakaryawan" class="selectpicker form-control" data-live-search="true">
@@ -120,7 +119,6 @@
                             </select>
                           </div>
                         </div>
-                      </div>
                     </div>
                   </form>
                   <div class="table-responsive">
@@ -144,7 +142,7 @@
                               -
                             </div>
                           </td>
-                          <td><center><button type="button" class="btn btn-secondary">Detail</button></center></button></td>
+                          <td><center><button type="button" class="btn btn-secondary">Detail</button></center></td>
                         </tr>
                         <tr>
                           <td>
@@ -214,7 +212,7 @@
       <script src="../assets/js/settings.js"></script>
       <script src="../assets/js/todolist.js"></script>
       <!-- endinject -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.bundle.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/js/bootstrap-select.min.js"></script>
       <!-- Custom js for this page -->
