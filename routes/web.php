@@ -39,6 +39,6 @@ Route::get('/tambahcustomer', function () {
     return view('tambahcustomer');
 });
 
-Route::get('/tes', function () {
-    return view('tes');
+Route::get('/login', function () {
+    return view('login');
 });
