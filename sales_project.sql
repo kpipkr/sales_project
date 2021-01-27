@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 25 Jan 2021 pada 08.57
+-- Waktu pembuatan: 27 Jan 2021 pada 08.40
 -- Versi server: 10.4.17-MariaDB
 -- Versi PHP: 7.3.26
 
@@ -50,7 +50,11 @@ CREATE TABLE `kunjungan` (
   `kunjungan_id` int(255) NOT NULL,
   `user_id` int(11) NOT NULL,
   `customer_id` int(100) NOT NULL,
-  `waktu_kunjungan` date NOT NULL,
+  `target` int(20) NOT NULL,
+  `tanggal` int(20) NOT NULL,
+  `bulan` int(20) NOT NULL,
+  `tahun` int(20) NOT NULL,
+  `waktu_kunjungan` date NOT NULL DEFAULT current_timestamp(),
   `nama_pic` varchar(100) NOT NULL,
   `contact_no_pic` int(50) NOT NULL,
   `produk` varchar(100) NOT NULL,
