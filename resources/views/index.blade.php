@@ -67,7 +67,7 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="customer">
-                    <i class="mdi mdi-menu menu-icon"></i>
+                    <i class="mdi mdi-account-multiple menu-icon"></i>
                     <span class="menu-title">Customer</span>
                   </a>
                 </li>

@@ -27,6 +27,7 @@
     <div class="horizontal-menu">
       <nav class="navbar top-navbar col-lg-12 col-12 p-0">
         <div class="container">
+          <h3>Sales Project</h3>
           <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
             <img style="float:left width: 50%; height: 50%" src="../assets/images/econ.png"  alt="image" />
           <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
@@ -61,7 +62,7 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="customer">
-                    <i class="mdi mdi-menu menu-icon"></i>
+                    <i class="mdi mdi-account-multiple menu-icon"></i>
                     <span class="menu-title"><b>Customer</b></span>
                   </a>
                 </li>
