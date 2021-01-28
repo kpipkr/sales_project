@@ -19,7 +19,7 @@
   <!-- Layout styles -->
   <link rel="stylesheet" href="../assets/css/demo_2/style.css" />
   <!-- End layout styles -->
-  <link rel="shortcut icon" href="../assets/images/pakerin.png" />
+  <link rel="shortcut icon" href="../assets/images/econ.png" />
 </head>
 <body>
   <div class="container-scroller">
@@ -29,26 +29,9 @@
         <div class="container">
           <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
             <!-- </ul> -->
-            <ul class="navbar-nav navbar-nav-right">
-              <li class="nav-item nav-profile dropdown">
-                <a class="nav-link" id="profileDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
-                  <div class="nav-profile-img">
-                    <img src="../assets/images/faces/face1.jpg" alt="image" />
-                  </div>
-                  <div class="nav-profile-text">
-                    <p class="text-black font-weight-semibold m-0"> Admin </p>
-                    <span class="font-13 online-color">online <i class="mdi mdi-chevron-down"></i></span>
-                  </div>
-                </a>
-                <div class="dropdown-menu navbar-dropdown" aria-labelledby="profileDropdown">
-                  <a class="dropdown-item" href="#">
-                    <i class="mdi mdi-cached mr-2 text-success"></i> Ganti Password </a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">
-                      <i class="mdi mdi-logout mr-2 text-primary"></i> Logout </a>
-                    </div>
-                  </li>
-                </ul>
+            <img style="float:left width: 50%; height: 50%" src="../assets/images/econ.png"  alt="image" />
+          <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+          </div>
                 <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="horizontal-menu-toggle">
                   <span class="mdi mdi-menu"></span>
                 </button>
@@ -95,13 +78,7 @@
                   </li>
                   <li class="nav-item">
                     <div class="nav-link d-flex">
-                    <a class="text-white" onClick="document.location.reload(true)"><i class="mdi mdi-refresh"></i></a>
-                    <script>
-                      function reloadpage()
-                      {
-                        location.reload()
-                      }
-                    </script>
+                    <a class="text-white"><i class="mdi mdi-logout"></i></a>
                   </div>
                   </li>
                 </ul>
