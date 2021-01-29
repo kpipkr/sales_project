@@ -17,8 +17,6 @@ class TargetController extends Controller {
         dd($request->all());
         $target = $request->target;
 
-        $db->target = 'Paris to London';
-        $db->save();
     }
 
 }
