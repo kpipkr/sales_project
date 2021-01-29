@@ -94,6 +94,7 @@
                                             </form>
                                             <div class="card border-1">
                                                 <div class="card-body">
+                                                    {{$target}}
                                                     <div class="card-title">Target Kunjungan (date + 1) : ........</div>
                                                     <div class="col-md-4">
                                                         <button type="edit" class="btn btn-primary mb-2 pull-right"><a><span class="mdi mdi-pencil"></span></a></button>
