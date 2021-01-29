@@ -29,162 +29,183 @@
         <div class="container">
           <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
             <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+            </div>
+            <img style="float:right width: 50%; height: 50%" src="../assets/images/econ.png"  alt="image">
+            <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="horizontal-menu-toggle">
+              <span class="mdi mdi-menu"></span>
+            </button>
           </div>
-          <img style="float:right width: 50%; height: 50%" src="../assets/images/econ.png"  alt="image">
-                <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="horizontal-menu-toggle">
-                  <span class="mdi mdi-menu"></span>
-                </button>
+        </div>
+      </nav>
+      <nav class="bottom-navbar" >
+        <div class="container">
+          <ul class="nav page-navigation">
+            <li class="nav-item">
+              <a class="nav-link" href="target">
+                <i class="mdi mdi-target menu-icon"></i>
+                <span class="menu-title">Target Kunjungan</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="capaian">
+                <i class="mdi mdi-chart-bar menu-icon"></i>
+                <span class="menu-title">Capaian</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="laporan">
+                <i class="mdi mdi-table-large menu-icon"></i>
+                <span class="menu-title">Laporan</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="customer">
+                <i class="mdi mdi-account-multiple menu-icon"></i>
+                <span class="menu-title"><b>Customer</b></span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <div class="nav-link d-flex">
+                <a class="text-white"><i class="mdi mdi-logout"></i></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+      <div class="main-panel">
+        <div class="content-wrapper pb-0">
+          <!-- table row starts here -->
+          <!-- doughnut chart row starts -->
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">List Customer</h4>
+              <div>
+                <button type="button" class="btn btn-primary pull-right mb-4"><a class="text-white" href="tambahcustomer">Tambah</a></button>
+              </div>
+              <br><br>
+              <div class="table-responsive">
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th><center>No.</center></th>
+                      <th><center>Nama Perusahaan</center></th>
+                      <th><center>Alamat</center></th>
+                      <th><center>Contact Person</center></th>
+                      <th><center>Action</center></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <center>1</center>
+                      </td>
+                      <td>PT. Maju Bersama</td>
+                      <td>
+                        <div class="alamat">
+                          Jln. Ngimbangan no. 70 Pungging, Kab. Mojokerto 64157
+                        </div>
+                      </td>
+                      <td>
+                        <div class="cp">
+                          <center>081234567890</center>
+                        </div>
+                      </td>
+                      <td><center><button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#modalSaya">Detail</center></button>
+                        <!-- Modal Pop-Up -->
+                        <div class="modal fade" id="modalSaya" tabindex="-1" role="dialog" aria-labelledby="modalSayaLabel" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="modalSayaLabel">Judul Modal Di Sini</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+                                Halo, ini modal sederhana.
+                                <br/>
+                                Seri Tutorial Bootstrap 4 lengkap dari dasar sampai mahir.
+                              </div>
+                              <!-- <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+                                <button type="button" class="btn btn-primary">Oke</button>
+                              </div> -->
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <center>2</center>
+                      </td>
+                      <td>PT. Sentosa Selamanya</td>
+                      <td>
+                        <div class="alamat">
+                          Jln. Prambon no. 50 Surabaya 62145
+                        </div>
+                      </td>
+                      <td>
+                        <div class="cp">
+                          <center>081234567890</center>
+                        </div>
+                      </td>
+                      <td><center><button type="button" class="btn btn-secondary">Detail</button></center></button></td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
-          </nav>
-          <nav class="bottom-navbar" >
-            <div class="container">
-              <ul class="nav page-navigation">
-                <li class="nav-item">
-                  <a class="nav-link" href="target">
-                    <i class="mdi mdi-target menu-icon"></i>
-                    <span class="menu-title">Target Kunjungan</span>
-                  </a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link" href="capaian">
-                    <i class="mdi mdi-chart-bar menu-icon"></i>
-                    <span class="menu-title">Capaian</span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="laporan">
-                    <i class="mdi mdi-table-large menu-icon"></i>
-                    <span class="menu-title">Laporan</span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="customer">
-                    <i class="mdi mdi-account-multiple menu-icon"></i>
-                    <span class="menu-title"><b>Customer</b></span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <div class="nav-link d-flex">
-                    <a class="text-white"><i class="mdi mdi-logout"></i></a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </nav>
+          </div>
         </div>
+        <!-- last row starts here -->
+        <div class="row">
+          <div class="col-sm-6 col-xl-4 stretch-card grid-margin">
+            <div class="card">
+            </div>
+          </div>
+        </div>
+        <!-- content-wrapper ends -->
+        <!-- partial:partials/_footer.html -->
+        <footer class="footer">
+          <div class="container">
+            <div class="d-sm-flex justify-content-center justify-content-sm-between">
+              <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © KPI Pakerin 2021</span>
+              <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"><a href="https://www.pakerin.co.id/" target="_blank">PT. Pakerin</a></span>
+            </div>
+          </div>
+        </footer>
         <!-- partial -->
-        <div class="container-fluid page-body-wrapper">
-          <div class="main-panel">
-            <div class="content-wrapper pb-0">
-              <!-- table row starts here -->
-              <!-- doughnut chart row starts -->
-              <div class="card">
-                <div class="card-body">
-                  <h4 class="card-title">List Customer</h4>
-                  <div>
-                    <button type="button" class="btn btn-primary pull-right mb-4"><a class="text-white" href="tambahcustomer">Tambah</a></button>
-                  </div>
-                  <br><br>
-                  <div class="table-responsive">
-                    <table class="table table-striped">
-                      <thead>
-                        <tr>
-                          <th><center>No.</center></th>
-                          <th><center>Nama Perusahaan</center></th>
-                          <th><center>Alamat</center></th>
-                          <th><center>Contact Person</center></th>
-                          <th><center>Action</center></th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>
-                            <center>1</center>
-                          </td>
-                          <td>PT. Maju Bersama</td>
-                          <td>
-                            <div class="alamat">
-                              Jln. Ngimbangan no. 70 Pungging, Kab. Mojokerto 64157
-                            </div>
-                          </td>
-                          <td>
-                            <div class="cp">
-                              <center>081234567890</center>
-                            </div>
-                          </td>
-                          <td><center><button type="button" class="btn btn-secondary">Detail</center></button></td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <center>2</center>
-                          </td>
-                          <td>PT. Sentosa Selamanya</td>
-                          <td>
-                            <div class="alamat">
-                              Jln. Prambon no. 50 Surabaya 62145
-                            </div>
-                          </td>
-                          <td>
-                            <div class="cp">
-                              <center>081234567890</center>
-                            </div>
-                          </td>
-                          <td><center><button type="button" class="btn btn-secondary">Detail</button></center></button></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- last row starts here -->
-            <div class="row">
-              <div class="col-sm-6 col-xl-4 stretch-card grid-margin">
-                <div class="card">
-
-                </div>
-              </div>
-            </div>
-            <!-- content-wrapper ends -->
-            <!-- partial:partials/_footer.html -->
-            <footer class="footer">
-              <div class="container">
-                <div class="d-sm-flex justify-content-center justify-content-sm-between">
-                  <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © KPI Pakerin 2021</span>
-                  <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"><a href="https://www.pakerin.co.id/" target="_blank">PT. Pakerin</a></span>
-                </div>
-              </div>
-            </footer>
-            <!-- partial -->
-          </div>
-          <!-- main-panel ends -->
-        </div>
-        <!-- page-body-wrapper ends -->
       </div>
-      <!-- container-scroller -->
-      <!-- plugins:js -->
-      <script src="../assets/vendors/js/vendor.bundle.base.js"></script>
-      <!-- endinject -->
-      <!-- Plugin js for this page -->
-      <script src="../assets/vendors/jquery-bar-rating/jquery.barrating.min.js"></script>
-      <script src="../assets/vendors/chart.js/Chart.min.js"></script>
-      <script src="../assets/vendors/flot/jquery.flot.js"></script>
-      <script src="../assets/vendors/flot/jquery.flot.resize.js"></script>
-      <script src="../assets/vendors/flot/jquery.flot.categories.js"></script>
-      <script src="../assets/vendors/flot/jquery.flot.fillbetween.js"></script>
-      <script src="../assets/vendors/flot/jquery.flot.stack.js"></script>
-      <!-- End plugin js for this page -->
-      <!-- inject:js -->
-      <script src="../assets/js/off-canvas.js"></script>
-      <script src="../assets/js/hoverable-collapse.js"></script>
-      <script src="../assets/js/misc.js"></script>
-      <script src="../assets/js/settings.js"></script>
-      <script src="../assets/js/todolist.js"></script>
-      <!-- endinject -->
-      <!-- Custom js for this page -->
-      <script src="../assets/js/dashboard.js"></script>
-      <!-- End custom js for this page -->
-    </body>
-    </html>
+      <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+  <!-- plugins:js -->
+  <script src="../assets/vendors/js/vendor.bundle.base.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page -->
+  <script src="../assets/vendors/jquery-bar-rating/jquery.barrating.min.js"></script>
+  <script src="../assets/vendors/chart.js/Chart.min.js"></script>
+  <script src="../assets/vendors/flot/jquery.flot.js"></script>
+  <script src="../assets/vendors/flot/jquery.flot.resize.js"></script>
+  <script src="../assets/vendors/flot/jquery.flot.categories.js"></script>
+  <script src="../assets/vendors/flot/jquery.flot.fillbetween.js"></script>
+  <script src="../assets/vendors/flot/jquery.flot.stack.js"></script>
+  <!-- End plugin js for this page -->
+  <!-- inject:js -->
+  <script src="../assets/js/off-canvas.js"></script>
+  <script src="../assets/js/hoverable-collapse.js"></script>
+  <script src="../assets/js/misc.js"></script>
+  <script src="../assets/js/settings.js"></script>
+  <script src="../assets/js/todolist.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page -->
+  <script src="../assets/js/dashboard.js"></script>
+  <!-- End custom js for this page -->
+</body>
+</html>
