@@ -27,12 +27,12 @@
   <div class="container-scroller">
     <!-- partial:partials/_horizontal-navbar.html -->
     <div class="horizontal-menu">
-      <nav class="navbar top-navbar col-lg-12 col-12 p-0">
+      <nav class="navbar top-navbar col-lg-2 col-12 p-0">
         <div class="container">
           <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
-              <img style="float:left width: 50%; height: 50%" src="../assets/images/econ.png"  alt="image" />
-          <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-          </div>
+            <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+            </div>
+            <img style="float:left width: 50%; height: 50%" src="../assets/images/econ.png"  alt="image" />
             <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="horizontal-menu-toggle">
               <span class="mdi mdi-menu"></span>
             </button>
@@ -148,7 +148,6 @@
         <div class="row">
           <div class="col-sm-6 col-xl-4 stretch-card grid-margin">
             <div class="card">
-
             </div>
           </div>
         </div>

@@ -30,7 +30,7 @@
           <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
             <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
             </div>
-            <img style="float:left width: 50%; height: 50%" src="../assets/images/econ.png"  alt="image" />
+            <img style="float:right width: 50%; height: 50%" src="../assets/images/econ.png"  alt="image">
             <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="horizontal-menu-toggle">
               <span class="mdi mdi-menu"></span>
             </button>
@@ -46,7 +46,6 @@
                 <span class="menu-title">Target Kunjungan</span>
               </a>
             </li>
-
             <li class="nav-item">
               <a class="nav-link" href="capaian">
                 <i class="mdi mdi-chart-bar menu-icon"></i>
@@ -56,19 +55,18 @@
             <li class="nav-item">
               <a class="nav-link" href="laporan">
                 <i class="mdi mdi-table-large menu-icon"></i>
-                <span class="menu-title"><b>Laporan</b></span>
+                <span class="menu-title">Laporan</span>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="customer">
                 <i class="mdi mdi-account-multiple menu-icon"></i>
-                <span class="menu-title">Customer</span>
+                <span class="menu-title"><b>Customer</b></span>
               </a>
             </li>
             <li class="nav-item">
               <div class="nav-link d-flex">
-                <a class="text-white" ><i class="mdi mdi-logout"></i></a>
-
+                <a class="text-white"><i class="mdi mdi-logout"></i></a>
               </div>
             </li>
           </ul>
@@ -83,51 +81,15 @@
           <!-- doughnut chart row starts -->
           <div class="card">
             <div class="card-body">
-              <h4 class="card-title">List Karyawan</h4>
-            </p>
-            <div class="table-responsive">
-              <table class="table table-striped">
-                <thead>
-                  <tr>
-                    <th><center>No.</center></th>
-                    <th><center>Nama</center></th>
-                    <th><center>Target Bulanan</center></th>
-                    <th><center>Tercapai</center></th>
-                    <th><center>Tidak Tercapai</center></th>
-                    <th><center>Ditolerir</center></th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><center>1</center></td>
-                    <td>Nicholas Saputera</td>
-                    <td><center>90</center></td>
-                    <td><center>85</center></td>
-                    <td><center>3</center></td>
-                    <td><center>2</center></td>
-                  </tr>
-                  <tr>
-                    <td><center>2</center></td>
-                    <td>Dian Sastro</td>
-                    <td><center>90</center></td>
-                    <td><center>87</center></td>
-                    <td><center>3</center></td>
-                    <td><center>0</center></td>
-                  </tr>
-                </tbody>
-              </table>
+              <h4 class="card-title">List Customer</h4>
+              <!-- Modal -->
+
             </div>
           </div>
         </div>
       </div>
-      <!-- last row starts here -->
-      <div class="row">
-        <div class="col-sm-6 col-xl-4 stretch-card grid-margin">
-          <div class="card">
-
-          </div>
-        </div>
-      </div>
+      <!-- script modal -->
+     
       <!-- content-wrapper ends -->
       <!-- partial:partials/_footer.html -->
       <footer class="footer">

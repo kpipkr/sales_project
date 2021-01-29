@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/login', function () {
+    return view('login');
+});
+
 Route::get('/index', function () {
     return view('index');
 });
@@ -39,6 +43,6 @@ Route::get('/tambahcustomer', function () {
     return view('tambahcustomer');
 });
 
-Route::get('/login', function () {
-    return view('login');
+Route::get('/detailcustomer', function () {
+    return view('detailcustomer');
 });
