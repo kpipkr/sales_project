@@ -6,8 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class target extends Model
 {
-    //
-    function getTarget(){
+     protected $table = 'target';
         
-    }
 }

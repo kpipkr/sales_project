@@ -12,6 +12,7 @@
 */
 
 Route::get('/', function () {
+    //halaman login
     return view('welcome');
 });
 
@@ -19,9 +20,9 @@ Route::get('/index', function () {
     return view('index');
 });
 
-Route::get('/target', function () {
-    return view('target');
-});
+//ROUTES Target
+Route::get('/target', 'TargetController@index');
+Route::post('/target', 'TargetController@updateTarget');
 
 Route::get('/capaian', function () {
     return view('capaian');
