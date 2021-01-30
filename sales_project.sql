@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 27 Jan 2021 pada 08.40
+-- Waktu pembuatan: 30 Jan 2021 pada 01.56
 -- Versi server: 10.4.17-MariaDB
 -- Versi PHP: 7.3.26
 
@@ -72,8 +72,17 @@ CREATE TABLE `kunjungan` (
 --
 
 CREATE TABLE `target` (
-  `target` int(50) NOT NULL
+  `id` int(5) NOT NULL,
+  `target` int(5) NOT NULL,
+  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data untuk tabel `target`
+--
+
+INSERT INTO `target` (`id`, `target`, `updated_at`) VALUES
+(1, 18, '2021-01-29 01:53:25');
 
 -- --------------------------------------------------------
 
@@ -107,6 +116,12 @@ ALTER TABLE `kunjungan`
   ADD KEY `customer_id` (`customer_id`);
 
 --
+-- Indeks untuk tabel `target`
+--
+ALTER TABLE `target`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indeks untuk tabel `user`
 --
 ALTER TABLE `user`
@@ -127,6 +142,12 @@ ALTER TABLE `customer`
 --
 ALTER TABLE `kunjungan`
   MODIFY `kunjungan_id` int(255) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT untuk tabel `target`
+--
+ALTER TABLE `target`
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT untuk tabel `user`
