@@ -26,7 +26,7 @@ Route::get('/index', function () {
 
 //ROUTES Target
 Route::get('/target', 'TargetController@index')->name('target');;
-Route::post('/target', 'TargetController@updateTarget')->name('update.target');;
+Route::post('/updatetarget', 'TargetController@updateTarget')->name('updatetarget');;
 
 Route::get('/capaian', function () {
     return view('capaian');

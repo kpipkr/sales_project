@@ -7,9 +7,7 @@ use App\Model\target;
 
 class TargetController extends Controller {
 
-    public function index() {
-        //        echo 'target page controller';
-        
+    public function index() {      
         // Get data target
         $db = target::find(1);
         $target = $db->target;

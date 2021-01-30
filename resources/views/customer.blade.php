@@ -132,6 +132,312 @@
                       </td>
                       <td><center><button type="button" class="btn btn-secondary">Detail</button></center></button></td>
                     </tr>
+                    <tr>
+                      <td>
+                        <center>2</center>
+                      </td>
+                      <td>PT. Sentosa Selamanya</td>
+                      <td>
+                        <div class="alamat">
+                          Jln. Prambon no. 50 Surabaya 62145
+                        </div>
+                      </td>
+                      <td>
+                        <div class="cp">
+                          <center>081234567890</center>
+                        </div>
+                      </td>
+                      <td><center><button type="button" class="btn btn-secondary">Detail</button></center></button></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <center>2</center>
+                      </td>
+                      <td>PT. Sentosa Selamanya</td>
+                      <td>
+                        <div class="alamat">
+                          Jln. Prambon no. 50 Surabaya 62145
+                        </div>
+                      </td>
+                      <td>
+                        <div class="cp">
+                          <center>081234567890</center>
+                        </div>
+                      </td>
+                      <td><center><button type="button" class="btn btn-secondary">Detail</button></center></button></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <center>2</center>
+                      </td>
+                      <td>PT. Sentosa Selamanya</td>
+                      <td>
+                        <div class="alamat">
+                          Jln. Prambon no. 50 Surabaya 62145
+                        </div>
+                      </td>
+                      <td>
+                        <div class="cp">
+                          <center>081234567890</center>
+                        </div>
+                      </td>
+                      <td><center><button type="button" class="btn btn-secondary">Detail</button></center></button></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <center>2</center>
+                      </td>
+                      <td>PT. Sentosa Selamanya</td>
+                      <td>
+                        <div class="alamat">
+                          Jln. Prambon no. 50 Surabaya 62145
+                        </div>
+                      </td>
+                      <td>
+                        <div class="cp">
+                          <center>081234567890</center>
+                        </div>
+                      </td>
+                      <td><center><button type="button" class="btn btn-secondary">Detail</button></center></button></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <center>2</center>
+                      </td>
+                      <td>PT. Sentosa Selamanya</td>
+                      <td>
+                        <div class="alamat">
+                          Jln. Prambon no. 50 Surabaya 62145
+                        </div>
+                      </td>
+                      <td>
+                        <div class="cp">
+                          <center>081234567890</center>
+                        </div>
+                      </td>
+                      <td><center><button type="button" class="btn btn-secondary">Detail</button></center></button></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <center>2</center>
+                      </td>
+                      <td>PT. Sentosa Selamanya</td>
+                      <td>
+                        <div class="alamat">
+                          Jln. Prambon no. 50 Surabaya 62145
+                        </div>
+                      </td>
+                      <td>
+                        <div class="cp">
+                          <center>081234567890</center>
+                        </div>
+                      </td>
+                      <td><center><button type="button" class="btn btn-secondary">Detail</button></center></button></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <center>2</center>
+                      </td>
+                      <td>PT. Sentosa Selamanya</td>
+                      <td>
+                        <div class="alamat">
+                          Jln. Prambon no. 50 Surabaya 62145
+                        </div>
+                      </td>
+                      <td>
+                        <div class="cp">
+                          <center>081234567890</center>
+                        </div>
+                      </td>
+                      <td><center><button type="button" class="btn btn-secondary">Detail</button></center></button></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <center>2</center>
+                      </td>
+                      <td>PT. Sentosa Selamanya</td>
+                      <td>
+                        <div class="alamat">
+                          Jln. Prambon no. 50 Surabaya 62145
+                        </div>
+                      </td>
+                      <td>
+                        <div class="cp">
+                          <center>081234567890</center>
+                        </div>
+                      </td>
+                      <td><center><button type="button" class="btn btn-secondary">Detail</button></center></button></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <center>2</center>
+                      </td>
+                      <td>PT. Sentosa Selamanya</td>
+                      <td>
+                        <div class="alamat">
+                          Jln. Prambon no. 50 Surabaya 62145
+                        </div>
+                      </td>
+                      <td>
+                        <div class="cp">
+                          <center>081234567890</center>
+                        </div>
+                      </td>
+                      <td><center><button type="button" class="btn btn-secondary">Detail</button></center></button></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <center>2</center>
+                      </td>
+                      <td>PT. Sentosa Selamanya</td>
+                      <td>
+                        <div class="alamat">
+                          Jln. Prambon no. 50 Surabaya 62145
+                        </div>
+                      </td>
+                      <td>
+                        <div class="cp">
+                          <center>081234567890</center>
+                        </div>
+                      </td>
+                      <td><center><button type="button" class="btn btn-secondary">Detail</button></center></button></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <center>2</center>
+                      </td>
+                      <td>PT. Sentosa Selamanya</td>
+                      <td>
+                        <div class="alamat">
+                          Jln. Prambon no. 50 Surabaya 62145
+                        </div>
+                      </td>
+                      <td>
+                        <div class="cp">
+                          <center>081234567890</center>
+                        </div>
+                      </td>
+                      <td><center><button type="button" class="btn btn-secondary">Detail</button></center></button></td>
+                    </tr><tr>
+                      <td>
+                        <center>2</center>
+                      </td>
+                      <td>PT. Sentosa Selamanya</td>
+                      <td>
+                        <div class="alamat">
+                          Jln. Prambon no. 50 Surabaya 62145
+                        </div>
+                      </td>
+                      <td>
+                        <div class="cp">
+                          <center>081234567890</center>
+                        </div>
+                      </td>
+                      <td><center><button type="button" class="btn btn-secondary">Detail</button></center></button></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <center>2</center>
+                      </td>
+                      <td>PT. Sentosa Selamanya</td>
+                      <td>
+                        <div class="alamat">
+                          Jln. Prambon no. 50 Surabaya 62145
+                        </div>
+                      </td>
+                      <td>
+                        <div class="cp">
+                          <center>081234567890</center>
+                        </div>
+                      </td>
+                      <td><center><button type="button" class="btn btn-secondary">Detail</button></center></button></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <center>2</center>
+                      </td>
+                      <td>PT. Sentosa Selamanya</td>
+                      <td>
+                        <div class="alamat">
+                          Jln. Prambon no. 50 Surabaya 62145
+                        </div>
+                      </td>
+                      <td>
+                        <div class="cp">
+                          <center>081234567890</center>
+                        </div>
+                      </td>
+                      <td><center><button type="button" class="btn btn-secondary">Detail</button></center></button></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <center>2</center>
+                      </td>
+                      <td>PT. Sentosa Selamanya</td>
+                      <td>
+                        <div class="alamat">
+                          Jln. Prambon no. 50 Surabaya 62145
+                        </div>
+                      </td>
+                      <td>
+                        <div class="cp">
+                          <center>081234567890</center>
+                        </div>
+                      </td>
+                      <td><center><button type="button" class="btn btn-secondary">Detail</button></center></button></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <center>2</center>
+                      </td>
+                      <td>PT. Sentosa Selamanya</td>
+                      <td>
+                        <div class="alamat">
+                          Jln. Prambon no. 50 Surabaya 62145
+                        </div>
+                      </td>
+                      <td>
+                        <div class="cp">
+                          <center>081234567890</center>
+                        </div>
+                      </td>
+                      <td><center><button type="button" class="btn btn-secondary">Detail</button></center></button></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <center>2</center>
+                      </td>
+                      <td>PT. Sentosa Selamanya</td>
+                      <td>
+                        <div class="alamat">
+                          Jln. Prambon no. 50 Surabaya 62145
+                        </div>
+                      </td>
+                      <td>
+                        <div class="cp">
+                          <center>081234567890</center>
+                        </div>
+                      </td>
+                      <td><center><button type="button" class="btn btn-secondary">Detail</button></center></button></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <center>2</center>
+                      </td>
+                      <td>PT. Sentosa Selamanya</td>
+                      <td>
+                        <div class="alamat">
+                          Jln. Prambon no. 50 Surabaya 62145
+                        </div>
+                      </td>
+                      <td>
+                        <div class="cp">
+                          <center>081234567890</center>
+                        </div>
+                      </td>
+                      <td><center><button type="button" class="btn btn-secondary">Detail</button></center></button></td>
+                    </tr>
+                    
                   </tbody>
                 </table>
               </div>
