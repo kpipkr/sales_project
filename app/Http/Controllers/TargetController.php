@@ -35,7 +35,7 @@ class TargetController extends Controller {
         $db->target = $target;
         $db->save();
         
-        
+        return redirect()->route('target');
 
     }
 

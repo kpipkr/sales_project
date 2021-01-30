@@ -85,7 +85,7 @@
                                 <div class="card">
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <form action="{{url('target')}}" method="post" >
+                                            <form action="{{url('update.target')}}" method="post" >
                                                 {{ csrf_field() }}
 
                                                 target kunjungan
