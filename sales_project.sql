@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.4
+-- version 4.9.0.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 30 Jan 2021 pada 01.56
--- Versi server: 10.4.17-MariaDB
--- Versi PHP: 7.3.26
+-- Generation Time: Feb 01, 2021 at 12:36 AM
+-- Server version: 10.4.6-MariaDB
+-- PHP Version: 7.3.8
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -24,26 +25,36 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `customer`
+-- Table structure for table `customer`
 --
 
 CREATE TABLE `customer` (
   `customer_id` int(100) NOT NULL,
   `nama_perusahaan` varchar(500) NOT NULL,
   `alamat` varchar(500) NOT NULL,
-  `contact_no_perusahaan` int(50) NOT NULL,
+  `contact_no_perusahaan` varchar(100) NOT NULL,
   `nama_pic` varchar(100) NOT NULL,
   `email` varchar(100) NOT NULL,
-  `contact_no_pic` int(50) NOT NULL,
+  `contact_no_pic` varchar(100) NOT NULL,
   `twitter` varchar(100) NOT NULL,
   `fb` varchar(100) NOT NULL,
   `wa` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Dumping data for table `customer`
+--
+
+INSERT INTO `customer` (`customer_id`, `nama_perusahaan`, `alamat`, `contact_no_perusahaan`, `nama_pic`, `email`, `contact_no_pic`, `twitter`, `fb`, `wa`) VALUES
+(1, 'PT. Maju Bersama', 'Jln. Ngimbangan no. 70 Pungging, Kab. Mojokerto 64157Jln. Ngimbangan no. 70 Pungging, Kab. Mojokerto 64157', '081234567890', 'James Wu', 'jameswu@gmail.com', '081234567890', 'jameswu', 'jameswu', '081234567890'),
+(2, 'PT. Sentosa Selamanya', 'Jln. Prambon no. 50 Surabaya 62145', '081234567890', 'Melani Atma', 'melaniatma@gmail.com', '081234567890', 'melaniatma', 'melaniatma', '081234567890'),
+(3, 'PT Jaya Bangsa Sentosa', 'jl kemutih no 17', '08571245231', 'Stephanie Hwang', 'stephaniew@gmail.com', '08571245231', 'stephaniewang', 'stephaniewang', '08571245231'),
+(4, 'PT Maju Anak Bangsa', 'Jl Kuningan merah jambu no 17', '08512543223', 'Gilbert Giovani', 'gilbertgiovani@gmail.com', '08512543223', 'glbrt', 'Gilbert Giovani', '08512543223');
+
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `kunjungan`
+-- Table structure for table `kunjungan`
 --
 
 CREATE TABLE `kunjungan` (
@@ -68,7 +79,7 @@ CREATE TABLE `kunjungan` (
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `target`
+-- Table structure for table `target`
 --
 
 CREATE TABLE `target` (
@@ -78,16 +89,16 @@ CREATE TABLE `target` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data untuk tabel `target`
+-- Dumping data for table `target`
 --
 
 INSERT INTO `target` (`id`, `target`, `updated_at`) VALUES
-(1, 18, '2021-01-29 01:53:25');
+(1, 3, '2021-01-29 21:00:09');
 
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `user`
+-- Table structure for table `user`
 --
 
 CREATE TABLE `user` (
@@ -98,17 +109,26 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
+-- Dumping data for table `user`
+--
+
+INSERT INTO `user` (`user_id`, `username`, `password`, `tipe`) VALUES
+(1, 'dicha putra', '123', 'sales'),
+(2, 'evi oktavia', '123', 'sales'),
+(3, 'anton efendi', '123', 'sales');
+
+--
 -- Indexes for dumped tables
 --
 
 --
--- Indeks untuk tabel `customer`
+-- Indexes for table `customer`
 --
 ALTER TABLE `customer`
   ADD PRIMARY KEY (`customer_id`);
 
 --
--- Indeks untuk tabel `kunjungan`
+-- Indexes for table `kunjungan`
 --
 ALTER TABLE `kunjungan`
   ADD PRIMARY KEY (`kunjungan_id`),
@@ -116,51 +136,51 @@ ALTER TABLE `kunjungan`
   ADD KEY `customer_id` (`customer_id`);
 
 --
--- Indeks untuk tabel `target`
+-- Indexes for table `target`
 --
 ALTER TABLE `target`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indeks untuk tabel `user`
+-- Indexes for table `user`
 --
 ALTER TABLE `user`
   ADD PRIMARY KEY (`user_id`);
 
 --
--- AUTO_INCREMENT untuk tabel yang dibuang
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT untuk tabel `customer`
+-- AUTO_INCREMENT for table `customer`
 --
 ALTER TABLE `customer`
-  MODIFY `customer_id` int(100) NOT NULL AUTO_INCREMENT;
+  MODIFY `customer_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
--- AUTO_INCREMENT untuk tabel `kunjungan`
+-- AUTO_INCREMENT for table `kunjungan`
 --
 ALTER TABLE `kunjungan`
   MODIFY `kunjungan_id` int(255) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT untuk tabel `target`
+-- AUTO_INCREMENT for table `target`
 --
 ALTER TABLE `target`
   MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
--- AUTO_INCREMENT untuk tabel `user`
+-- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
--- Ketidakleluasaan untuk tabel pelimpahan (Dumped Tables)
+-- Constraints for dumped tables
 --
 
 --
--- Ketidakleluasaan untuk tabel `kunjungan`
+-- Constraints for table `kunjungan`
 --
 ALTER TABLE `kunjungan`
   ADD CONSTRAINT `customer_id` FOREIGN KEY (`customer_id`) REFERENCES `customer` (`customer_id`),
