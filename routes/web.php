@@ -25,8 +25,8 @@ Route::get('/index', function () {
 });
 
 //ROUTES Target
-Route::get('/target', 'TargetController@index')->name('target');;
-Route::post('/updatetarget', 'TargetController@updateTarget')->name('updatetarget');;
+Route::get('/target', 'TargetController@index')->name('target');
+Route::post('/updatetarget', 'TargetController@updateTarget')->name('updatetarget');
 
 Route::get('/capaian', function () {
     return view('capaian');
@@ -36,9 +36,7 @@ Route::get('/laporan', function () {
     return view('laporan');
 });
 
-Route::get('/customer', function () {
-    return view('customer');
-});
+Route::get('/customer', 'CustomerController@index')->name('customer');
 
 Route::get('/tambahcustomer', function () {
     return view('tambahcustomer');
