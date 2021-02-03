@@ -133,16 +133,33 @@
                             <div class="modal-body">
                               <form>
                                 <div class="form-group">
-                                  <label for="exampleInputEmail1">Email address</label>
-                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                  <label for="nama_pic">Nama PIC yang ditemui</label>
+                                  <input type="text" class="form-control" id="nama_pic" readonly>
                                 </div>
                                 <div class="form-group">
-                                  <label for="exampleInputEmail1">Username</label>
-                                  <input type="text" class="form-control" id="username" aria-describedby="emailHelp" placeholder="Enter username">
+                                  <label for="nama_pic">Kontak PIC yang ditemui</label>
+                                  <input type="text" class="form-control" id="contact_no_pic" readonly>
                                 </div>
                                 <div class="form-group">
-                                  <label for="exampleInputPassword1">Password</label>
-                                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                  <label for="nama_pic">Produk yang akan dibeli</label>
+                                  <textarea class="form-control" id="produk" readonly></textarea>
+                                </div>
+                                <div class="form-group">
+                                  <label for="nama_pic">Kisaran Harga</label>
+                                  <input type="text" class="form-control" id="harga" readonly>
+                                </div>
+                                <div class="form-group">
+                                  <label for="nama_pic">Perkiraan Waktu Pembelian</label>
+                                  <input type="text" class="form-control" id="waktu_pembelian" readonly>
+                                </div>
+                                <div class="form-group">
+                                  <label for="nama_pic">Lain - Lain</label>
+                                  <textarea type="text" class="form-control" id="lainlain" readonly></textarea>
+                                </div>
+                                <div class="form-group">
+                                  <label for="nama_pic">Foto saat kunjungan</label>
+                                  <img id="foto" src="../assets/images/salesproject.jpg" alt="image" />
+                                  <input type="text" class="form-control" id="nama_pic" readonly>
                                 </div>
                               </form>
                             </div>

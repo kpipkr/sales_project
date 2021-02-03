@@ -65,7 +65,7 @@ CREATE TABLE `kunjungan` (
   `tanggal` int(20) NOT NULL,
   `bulan` int(20) NOT NULL,
   `tahun` int(20) NOT NULL,
-  `waktu_kunjungan` date NOT NULL DEFAULT current_timestamp(),
+  `waktu_kunjungan` date NOT NULL,
   `nama_pic` varchar(100) NOT NULL,
   `contact_no_pic` int(50) NOT NULL,
   `produk` varchar(100) NOT NULL,
