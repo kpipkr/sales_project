@@ -90,38 +90,38 @@
                 <div class="form-group row">
                   <label class="col-sm-2 col-form-label">Nama Perusahaan</label>
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" id="namaperusahaan" placeholder="Nama Perusahaan" />
+                    <input type="text" class="form-control" id="namaperusahaan" placeholder="Nama Perusahaan" disabled />
                   </div>
                 </div>
                 <div class="form-group row">
                   <label class="col-sm-2 col-form-label">Alamat Perusahaan</label>
                   <div class="col-sm-10">
-                  <textarea type="text" class="form-control" id="alamatperusahaan" placeholder="Alamat Perusahaan">
+                  <textarea type="text" class="form-control" id="alamatperusahaan" placeholder="Alamat Perusahaan" disabled>
                   </textarea>
                 </div>
                 </div>
                 <div class="form-group row">
                   <label class="col-sm-2 col-form-label">Kontak Perusahaan</label>
                   <div class="col-sm-10">
-                  <input type="text" class="form-control" id="kontakperusahaan" placeholder="Kontak Perusahaan" />
+                  <input type="text" class="form-control" id="kontakperusahaan" disabled />
                 </div>
                 </div>
                 <div class="form-group row">
                   <label class="col-sm-2 col-form-label">Nama PIC</label>
                   <div class="col-sm-10">
-                  <input type="text" class="form-control" id="namapic" placeholder="Nama PIC" />
+                  <input type="text" class="form-control" id="namapic" disabled />
                 </div>
                 </div>
                 <div class="form-group row">
                   <label class="col-sm-2 col-form-label">Email PIC</label>
                   <div class="col-sm-10">
-                  <input type="text" class="form-control" id="emailpic" placeholder="Email PIC" />
+                  <input type="text" class="form-control" id="emailpic" disabled />
                 </div>
                 </div>
                 <div class="form-group row">
                   <label class="col-sm-2 col-form-label">Kontak PIC</label>
                   <div class="col-sm-10">
-                  <input type="text" class="form-control" id="kontakpic" placeholder="Kontak PIC" />
+                  <input type="text" class="form-control" id="kontakpic" disabled />
                 </div>
                 </div>
                 <div class="form-group row">
@@ -130,19 +130,19 @@
                     <div class="input-group">
                       <div class="col-sm-10 input-group-prepend">
                         <span class="input-group-text bg-dark text-white"><i class="mdi mdi-whatsapp"></i></span>
-                        <input type="text" class="form-control" placeholder="Whatsapp" />
+                        <input type="text" class="form-control" disabled />
                       </div>
                     </div>
                     <div class="input-group">
                       <div class="col-sm-10 input-group-prepend">
                         <span class="input-group-text bg-dark text-white"><i class="mdi mdi-facebook"></i></span>
-                        <input type="text" class="form-control" placeholder="Facebook" />
+                        <input type="text" class="form-control" disabled />
                       </div>
                     </div>
                     <div class="input-group">
                       <div class="col-sm-10 input-group-prepend">
                         <span class="input-group-text bg-dark text-white"><i class="mdi mdi-twitter"></i></span>
-                        <input type="text" class="form-control" placeholder="Twitter" />
+                        <input type="text" class="form-control" disabled />
                       </div>
                     </div>
                   </div>
