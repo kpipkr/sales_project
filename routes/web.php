@@ -37,10 +37,9 @@ Route::get('/laporan', function () {
 });
 
 Route::get('/customer', 'CustomerController@index')->name('customer');
+Route::get('/tambahcustomer', 'CustomerController@tambahCustomer')->name('tambahcustomer');
+Route::post('/insertcustomer', 'CustomerController@insertCustomer')->name('insertcustomer');
 
-Route::get('/tambahcustomer', function () {
-    return view('tambahcustomer');
-});
 
 Route::get('/detailcustomer', function () {
     return view('detailcustomer');
