@@ -41,25 +41,25 @@
         <div class="container">
           <ul class="nav page-navigation">
             <li class="nav-item">
-              <a class="nav-link" href="{{url('target')}}">
+              <a class="nav-link" href="target">
                 <i class="mdi mdi-target menu-icon"></i>
                 <span class="menu-title">Target Kunjungan</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{url('capaian')}}">
+              <a class="nav-link" href="capaian">
                 <i class="mdi mdi-chart-bar menu-icon"></i>
                 <span class="menu-title">Capaian</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{url('laporan')}}">
+              <a class="nav-link" href="laporan">
                 <i class="mdi mdi-table-large menu-icon"></i>
                 <span class="menu-title">Laporan</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{url('customer')}}">
+              <a class="nav-link" href="customer">
                 <i class="mdi mdi-account-multiple menu-icon"></i>
                 <span class="menu-title"><b>Customer</b></span>
               </a>
@@ -82,7 +82,7 @@
           <div class="card">
             <div class="card-body">
               <div>
-                <button type="kembali" class="btn-primary"><a class="text-white" href="{{url('customer')}}"><i class="mdi mdi-arrow-left-bold"></i></a></button>
+                <button type="kembali" class="btn-primary"><a class="text-white" href="customer"><i class="mdi mdi-arrow-left-bold"></i></a></button>
               </div>
               <br>
               <h4 class="card-title"></h4>
@@ -90,37 +90,38 @@
                 <div class="form-group row">
                   <label class="col-sm-2 col-form-label">Nama Perusahaan</label>
                   <div class="col-sm-10">
-                    <input disabled value="{{$nama_perusahaan}}" type="text" class="form-control" id="namaperusahaan" placeholder="Nama Perusahaan" />
+                    <input type="text" class="form-control" id="namaperusahaan" placeholder="Nama Perusahaan" disabled />
                   </div>
                 </div>
                 <div class="form-group row">
                   <label class="col-sm-2 col-form-label">Alamat Perusahaan</label>
                   <div class="col-sm-10">
-                  <textarea disabled type="text" class="form-control" id="alamatperusahaan" placeholder="Alamat Perusahaan">{{$alamat}}</textarea>
+                  <textarea type="text" class="form-control" id="alamatperusahaan" placeholder="Alamat Perusahaan" disabled>
+                  </textarea>
                 </div>
                 </div>
                 <div class="form-group row">
                   <label class="col-sm-2 col-form-label">Kontak Perusahaan</label>
                   <div class="col-sm-10">
-                  <input disabled value="{{$contact_no_perusahaan}}" type="text" class="form-control" id="kontakperusahaan" placeholder="Kontak Perusahaan" />
+                  <input type="text" class="form-control" id="kontakperusahaan" disabled />
                 </div>
                 </div>
                 <div class="form-group row">
                   <label class="col-sm-2 col-form-label">Nama PIC</label>
                   <div class="col-sm-10">
-                  <input disabled value="{{$nama_pic}}" type="text" class="form-control" id="namapic" placeholder="Nama PIC" />
+                  <input type="text" class="form-control" id="namapic" disabled />
                 </div>
                 </div>
                 <div class="form-group row">
                   <label class="col-sm-2 col-form-label">Email PIC</label>
                   <div class="col-sm-10">
-                  <input disabled value="{{$email}}" type="text" class="form-control" id="emailpic" placeholder="Email PIC" />
+                  <input type="text" class="form-control" id="emailpic" disabled />
                 </div>
                 </div>
                 <div class="form-group row">
                   <label class="col-sm-2 col-form-label">Kontak PIC</label>
                   <div class="col-sm-10">
-                  <input disabled value="{{$contact_no_pic}}" type="text" class="form-control" id="kontakpic" placeholder="Kontak PIC" />
+                  <input type="text" class="form-control" id="kontakpic" disabled />
                 </div>
                 </div>
                 <div class="form-group row">
@@ -129,19 +130,19 @@
                     <div class="input-group">
                       <div class="col-sm-10 input-group-prepend">
                         <span class="input-group-text bg-dark text-white"><i class="mdi mdi-whatsapp"></i></span>
-                        <input disabled value="{{$wa}}" type="text" class="form-control" placeholder="Whatsapp" />
+                        <input type="text" class="form-control" disabled />
                       </div>
                     </div>
                     <div class="input-group">
                       <div class="col-sm-10 input-group-prepend">
                         <span class="input-group-text bg-dark text-white"><i class="mdi mdi-facebook"></i></span>
-                        <input disabled value="{{$fb}}" type="text" class="form-control" placeholder="Facebook" />
+                        <input type="text" class="form-control" disabled />
                       </div>
                     </div>
                     <div class="input-group">
                       <div class="col-sm-10 input-group-prepend">
                         <span class="input-group-text bg-dark text-white"><i class="mdi mdi-twitter"></i></span>
-                        <input disabled value="{{$twitter}}" type="text" class="form-control" placeholder="Twitter" />
+                        <input type="text" class="form-control" disabled />
                       </div>
                     </div>
                   </div>
