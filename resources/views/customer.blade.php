@@ -108,15 +108,11 @@
                                     </thead>
                                     <tbody>
 
-                                        @foreach($target as $target)
+                                        @foreach($customer as $customer)
                                         <tr>
                                             <td><center>{{$no++}}</center></td>
-                                            <td><a href="detailcustomer">{{ $target->nama_perusahaan }}</a></td>
-                                            <!-- <td> {{ $target->alamat }}</td>
-                                            <td> {{ $target->contact_no_perusahaan }}</td> -->
-                                            <!-- <td>
-                                                <center><button type="button" class="btn btn-secondary"></center></button>
-                                            </td> -->
+                                            <td><a href="detailcustomer/{{$customer->customer_id}}">{{ $customer->nama_perusahaan }}</a></td>
+
                                         </tr>
                                         @endforeach
                                     </tbody>
