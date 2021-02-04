@@ -90,38 +90,64 @@
                                             <form action="{{url('updatetarget')}}" method="post" >
                                                 {{ csrf_field() }}
                                                 <div class="card-title">Target Kunjungan (date + 1) : 
-                                                <input type="text" name="target">{{$target}}
-                                                <button onclick type="submit" class="btn btn-primary mb-2"><a>update</span></a></button></input>
-                                            </div></form>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- last row starts here -->
-            <div class="row">
-                <div class="col-sm-6 col-xl-4 stretch-card grid-margin">
-                   
-                </div>
-            </div>
-            <!-- content-wrapper ends -->
-            <!-- partial:partials/_footer.html -->
-            <footer class="footer">
-                <div class="container">
-                    <div class="d-sm-flex justify-content-center justify-content-sm-between">
-                        <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © KPI Pakerin 2021</span>
-                        <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"><a href="https://www.pakerin.co.id/" target="_blank">PT. Pakerin</a></span>
-                    </div>
-                </div>
-            </footer>
-            <!-- partial -->
-        </div>
-        <!-- main-panel ends -->
+                                                    {{$target}} 
+                                                  
+                                                    <h5></h5>
+                                                    <button type="button" class="btn-primary pull-right mb-2" data-toggle="modal" data-target="#modalSaya"><i class="mdi mdi-pencil"></i></button>
+                                                    <!-- Modal Pop-Up -->
+                                                    <div class="modal fade" id="modalSaya" tabindex="-1" role="dialog" aria-labelledby="modalSayaLabel" aria-hidden="true">
+                                                        <div class="modal-dialog" role="document">
+                                                          <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title" id="modalSayaLabel">Update Target</h5>
+                                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                          <form>
+                                                            <div class="form-group">
+                                                              <input type="text" class="form-control" name="target"></input>
+                                                              <button onclick type="submit" class="btn-primary mdi mdi-update"></button>
+                                                          </div>
+                                                      </form>
+                                                  </div>
+                                                  <div class="modal-footer">
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </td>
+                              </div></form>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- last row starts here -->
+<div class="row">
+    <div class="col-sm-6 col-xl-4 stretch-card grid-margin">
+
     </div>
-    <!-- page-body-wrapper ends -->
+</div>
+<!-- content-wrapper ends -->
+<!-- partial:partials/_footer.html -->
+<footer class="footer">
+    <div class="container">
+        <div class="d-sm-flex justify-content-center justify-content-sm-between">
+            <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © KPI Pakerin 2021</span>
+            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"><a href="https://www.pakerin.co.id/" target="_blank">PT. Pakerin</a></span>
+        </div>
+    </div>
+</footer>
+<!-- partial -->
+</div>
+<!-- main-panel ends -->
+</div>
+<!-- page-body-wrapper ends -->
 </div>
 <!-- container-scroller -->
 <!-- plugins:js -->

@@ -119,6 +119,7 @@
                           -
                         </div>
                       </td>
+                    </tr>
                       <td><center><button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#modalSaya">Detail</button></center></td>
                       <!-- Modal Pop-Up -->
                       <div class="modal fade" id="modalSaya" tabindex="-1" role="dialog" aria-labelledby="modalSayaLabel" aria-hidden="true">
@@ -169,7 +170,6 @@
                           </div>
                         </div>
                       </td>
-                    </tr>
                     <tr>
                       <td>
                         <center>2</center>
@@ -196,8 +196,6 @@
         <!-- last row starts here -->
         <div class="row">
           <div class="col-sm-6 col-xl-4 stretch-card grid-margin">
-            <div class="card">
-            </div>
           </div>
         </div>
         <!-- content-wrapper ends -->
