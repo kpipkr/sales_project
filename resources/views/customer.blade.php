@@ -32,55 +32,7 @@
     <body>
         <div class="container-scroller">
             <!-- partial:partials/_horizontal-navbar.html -->
-            <div class="horizontal-menu">
-                <nav class="navbar top-navbar col-lg-2 col-12 p-0">
-                    <div class="container">
-                        <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
-                            <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-                            </div>
-                            <img style="float:right width: 50%; height: 50%" src="../assets/images/econ.png"  alt="image">
-                            <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="horizontal-menu-toggle">
-                                <span class="mdi mdi-menu"></span>
-                            </button>
-                        </div>
-                    </div>
-                </nav>
-                <nav class="bottom-navbar" >
-                    <div class="container">
-                        <ul class="nav page-navigation">
-                            <li class="nav-item">
-                                <a class="nav-link" href="target">
-                                    <i class="mdi mdi-target menu-icon"></i>
-                                    <span class="menu-title">Target Kunjungan</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="capaian">
-                                    <i class="mdi mdi-chart-bar menu-icon"></i>
-                                    <span class="menu-title">Capaian</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="laporan">
-                                    <i class="mdi mdi-table-large menu-icon"></i>
-                                    <span class="menu-title">Laporan</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="customer">
-                                    <i class="mdi mdi-account-multiple menu-icon"></i>
-                                    <span class="menu-title"><b>Customer</b></span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <div class="nav-link d-flex">
-                                    <a class="text-white"><i class="mdi mdi-logout"></i></a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
+            @include('includes.headeratasan')
             <!-- partial -->
             <div class="container-fluid page-body-wrapper">
                 <div class="main-panel">
