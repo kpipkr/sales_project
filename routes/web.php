@@ -41,3 +41,6 @@ Route::get('/tambahcustomer', 'CustomerController@tambahCustomer')->name('tambah
 Route::post('/insertcustomer', 'CustomerController@insertCustomer')->name('insertcustomer');
 Route::get('/detailcustomer/{id}', 'CustomerController@detailCustomer')->name('detailcustomer');
 
+Route::get('/kunjungan', function () {
+    return view('kunjungan');
+});
