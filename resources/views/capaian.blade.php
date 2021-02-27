@@ -16,7 +16,6 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/css/bootstrap-select.min.css">
   <!-- End plugin css for this page -->
-
   <!-- inject:css -->
   <!-- endinject -->
   <!-- Layout styles -->
@@ -27,55 +26,7 @@
 <body>
   <div class="container-scroller">
     <!-- partial:partials/_horizontal-navbar.html -->
-    <div class="horizontal-menu">
-      <nav class="navbar top-navbar col-lg-2 col-12 p-0">
-        <div class="container">
-          <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
-            <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-            </div>
-            <img style="float:left width: 50%; height: 50%" src="../assets/images/econ.png"  alt="image" />
-            <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="horizontal-menu-toggle">
-              <span class="mdi mdi-menu"></span>
-            </button>
-          </div>
-        </div>
-      </nav>
-      <nav class="bottom-navbar" >
-        <div class="container">
-          <ul class="nav page-navigation">
-            <li class="nav-item">
-              <a class="nav-link" href="target">
-                <i class="mdi mdi-target menu-icon"></i>
-                <span class="menu-title">Target Kunjungan</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="capaian">
-                <i class="mdi mdi-chart-bar menu-icon"></i>
-                <span class="menu-title"><b>Capaian</b></span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="laporan">
-                <i class="mdi mdi-table-large menu-icon"></i>
-                <span class="menu-title">Laporan</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="customer">
-                <i class="mdi mdi-account-multiple menu-icon"></i>
-                <span class="menu-title">Customer</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <div class="nav-link d-flex">
-                <a class="text-white"><i class="mdi mdi-logout"></i></a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+     @include('includes.headeratasan')
     <!-- partial -->
     <div class="container-fluid page-body-wrapper">
       <div class="main-panel">
@@ -152,25 +103,24 @@
                                     <input type="text" class="form-control" id="contact_no_pic" readonly>
                                   </div>
                                   <div class="form-group">
-                                    <label for="nama_pic">Produk yang akan dibeli</label>
+                                    <label for="produk">Produk yang akan dibeli</label>
                                     <textarea class="form-control" id="produk" readonly></textarea>
                                   </div>
                                   <div class="form-group">
-                                    <label for="nama_pic">Kisaran Harga</label>
+                                    <label for="harga">Kisaran Harga</label>
                                     <input type="text" class="form-control" id="harga" readonly>
                                   </div>
                                   <div class="form-group">
-                                    <label for="nama_pic">Perkiraan Waktu Pembelian</label>
+                                    <label for="waktu_pembelian">Perkiraan Waktu Pembelian</label>
                                     <input type="text" class="form-control" id="waktu_pembelian" readonly>
                                   </div>
                                   <div class="form-group">
-                                    <label for="nama_pic">Lain - Lain</label>
+                                    <label for="lainlain">Lain - Lain</label>
                                     <textarea type="text" class="form-control" id="lainlain" readonly></textarea>
                                   </div>
                                   <div class="form-group">
-                                    <label for="nama_pic">Foto saat kunjungan</label>
-                                    <img id="foto" src="../assets/images/salesproject.jpg" alt="image" />
-                                    <input type="text" class="form-control" id="nama_pic" readonly>
+                                    <label for="foto">Foto saat kunjungan</label><br>
+                                    <img id="foto" src="../assets/images/salesproject.jpg" alt="image" style="width:100%;" />
                                   </div>
                                 </form>
                               </div>

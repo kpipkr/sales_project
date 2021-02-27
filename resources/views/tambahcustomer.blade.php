@@ -42,12 +42,11 @@
                                     {{ csrf_field() }}
                                     <div class="form-group">
                                         <label>Nama Perusahaan</label>
-                                        <input name="nama_perusahaan"type="text" class="form-control" id="namaperusahaan" placeholder="Nama Perusahaan" />
+                                        <input name="nama_perusahaan" type="text" class="form-control" id="namaperusahaan" placeholder="Nama Perusahaan" />
                                     </div>
                                     <div class="form-group">
                                         <label>Alamat Perusahaan</label>
-                                        <textarea name="alamat_perusahaan" type="text" class="form-control" id="alamatperusahaan" placeholder="Alamat Perusahaan">
-                                        </textarea>
+                                        <textarea name="alamat_perusahaan" type="text" class="form-control" id="alamatperusahaan" placeholder="Alamat Perusahaan"></textarea>
                                     </div>
                                     <div class="form-group">
                                         <label>Kontak Perusahaan</label>

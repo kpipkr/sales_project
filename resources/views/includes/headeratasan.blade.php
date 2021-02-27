@@ -17,7 +17,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{url('target')}}">
                         <i class="mdi mdi-target menu-icon"></i>
-                        <span class="menu-title"><b>Target Kunjungan</b></span>
+                        <span class="menu-title">Target Kunjungan</span>
                     </a>
                 </li>
 

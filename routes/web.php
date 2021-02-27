@@ -44,3 +44,7 @@ Route::get('/detailcustomer/{id}', 'CustomerController@detailCustomer')->name('d
 Route::get('/kunjungan', function () {
     return view('kunjungan');
 });
+
+Route::get('/tambahkunjungan', function () {
+    return view('tambahkunjungan');
+});
