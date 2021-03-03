@@ -58,87 +58,82 @@
                                     <label for="lainlain">Lain - Lain</label>
                                     <textarea type="text" class="form-control" id="lainlain"></textarea><br>
                                     <label for="foto">Foto saat kunjungan</label><br>
-                                    <input type="file" name="img[]" class="file-upload-default" />
-                                    <div class="input-group col-xs-12">
-                                      <input type="text" class="form-control file-upload-info" disabled placeholder="Upload Image" />
-                                      <span class="input-group-append">
-                                        <button class="file-upload-browse btn btn-primary" type="button"> Upload </button>
-                                    </span>
+                                    <input type="file" name="img[]" class="form-control" />
+                                    
+                                    <br>
+                                    <button type="submit" class="btn btn-primary mr-2"> Submit </button>
+                                    <button class="btn btn-light">Clear</button>
                                 </div>
-                                <br>
-                                <button type="submit" class="btn btn-primary mr-2"> Submit </button>
-                                <button class="btn btn-light">Clear</button>
-                            </div>
-                            <div id="belum" class="form-group" style="display: none">
-                                <center><h4>Feedback Kunjungan</h4></center>
-                                <label for="nama_pic">Alasan:</label>
-                                <textarea class="form-control" id="produk"></textarea>
-                                <br>
-                                <button type="submit" class="btn btn-primary mr-2"> Submit </button>
-                                <button class="btn btn-light">Clear</button>
-                            </div>
+                                <div id="belum" class="form-group" style="display: none">
+                                    <center><h4>Feedback Kunjungan</h4></center>
+                                    <label for="nama_pic">Alasan:</label>
+                                    <textarea class="form-control" id="produk"></textarea>
+                                    <br>
+                                    <button type="submit" class="btn btn-primary mr-2"> Submit </button>
+                                    <button class="btn btn-light">Clear</button>
+                                </div>
 
-                        </form>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- last row starts here -->
+                    <div class="row">
+                        <div class="col-sm-6 col-xl-4 stretch-card grid-margin">
+                        </div>
                     </div>
                 </div>
-                <!-- last row starts here -->
-                <div class="row">
-                    <div class="col-sm-6 col-xl-4 stretch-card grid-margin">
+                <!-- content-wrapper ends -->
+                <!-- partial:partials/_footer.html -->
+                <footer class="footer">
+                    <div class="container">
+                        <div class="d-sm-flex justify-content-center justify-content-sm-between">
+                            <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © KPI Pakerin 2021</span>
+                            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"><a href="https://www.pakerin.co.id/" target="_blank">PT. Pakerin</a></span>
+                        </div>
                     </div>
-                </div>
+                </footer>
+                <!-- partial -->
             </div>
-            <!-- content-wrapper ends -->
-            <!-- partial:partials/_footer.html -->
-            <footer class="footer">
-                <div class="container">
-                    <div class="d-sm-flex justify-content-center justify-content-sm-between">
-                        <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © KPI Pakerin 2021</span>
-                        <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"><a href="https://www.pakerin.co.id/" target="_blank">PT. Pakerin</a></span>
-                    </div>
-                </div>
-            </footer>
-            <!-- partial -->
+            <!-- main-panel ends -->
         </div>
-        <!-- main-panel ends -->
-    </div>
-    <!-- page-body-wrapper ends -->
-    <!-- container-scroller -->
-    <!-- plugins:js -->
-    <script src="../assets/vendors/js/vendor.bundle.base.js"></script>
-    <!-- endinject -->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-    <script type="text/javascript">
+        <!-- page-body-wrapper ends -->
+        <!-- container-scroller -->
+        <!-- plugins:js -->
+        <script src="../assets/vendors/js/vendor.bundle.base.js"></script>
+        <!-- endinject -->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+        <script type="text/javascript">
 
-        $(function(){
-            $(":radio.detail").click(function(){
-                $("#sudah, #belum").hide()
-                if($(this).val() == "sudah"){
-                    $("#sudah").show();
-                }else{
-                    $("#belum").show();
-                }
+            $(function(){
+                $(":radio.detail").click(function(){
+                    $("#sudah, #belum").hide()
+                    if($(this).val() == "sudah"){
+                        $("#sudah").show();
+                    }else{
+                        $("#belum").show();
+                    }
+                });
             });
-        });
-    </script>
-    <!-- Plugin js for this page -->
-    <script src="../assets/vendors/jquery-bar-rating/jquery.barrating.min.js"></script>
-    <script src="../assets/vendors/chart.js/Chart.min.js"></script>
-    <script src="../assets/vendors/flot/jquery.flot.js"></script>
-    <script src="../assets/vendors/flot/jquery.flot.resize.js"></script>
-    <script src="../assets/vendors/flot/jquery.flot.categories.js"></script>
-    <script src="../assets/vendors/flot/jquery.flot.fillbetween.js"></script>
-    <script src="../assets/vendors/flot/jquery.flot.stack.js"></script>
-    <!-- End plugin js for this page -->
-    <!-- inject:js -->
-    <script src="../assets/js/off-canvas.js"></script>
-    <script src="../assets/js/hoverable-collapse.js"></script>
-    <script src="../assets/js/misc.js"></script>
-    <script src="../assets/js/settings.js"></script>
-    <script src="../assets/js/todolist.js"></script>
-    <!-- endinject -->
-    <!-- Custom js for this page -->
-    <script src="../assets/js/dashboard.js"></script>
-    <script src="../../../assets/js/file-upload.js"></script>
-    <!-- End custom js for this page -->
-</body>
-</html>
+        </script>
+        <!-- Plugin js for this page -->
+        <script src="../assets/vendors/jquery-bar-rating/jquery.barrating.min.js"></script>
+        <script src="../assets/vendors/chart.js/Chart.min.js"></script>
+        <script src="../assets/vendors/flot/jquery.flot.js"></script>
+        <script src="../assets/vendors/flot/jquery.flot.resize.js"></script>
+        <script src="../assets/vendors/flot/jquery.flot.categories.js"></script>
+        <script src="../assets/vendors/flot/jquery.flot.fillbetween.js"></script>
+        <script src="../assets/vendors/flot/jquery.flot.stack.js"></script>
+        <!-- End plugin js for this page -->
+        <!-- inject:js -->
+        <script src="../assets/js/off-canvas.js"></script>
+        <script src="../assets/js/hoverable-collapse.js"></script>
+        <script src="../assets/js/misc.js"></script>
+        <script src="../assets/js/settings.js"></script>
+        <script src="../assets/js/todolist.js"></script>
+        <!-- endinject -->
+        <!-- Custom js for this page -->
+        <script src="../assets/js/dashboard.js"></script>
+        <script src="../../../assets/js/file-upload.js"></script>
+        <!-- End custom js for this page -->
+    </body>
+    </html>
