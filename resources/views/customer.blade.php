@@ -43,7 +43,7 @@
                         <div class="card-body">
                             <h4 class="card-title">List Customer</h4>
                             <div>
-                                <button type="button" class="btn btn-primary pull-right mb-4"><a class="text-white" href="tambahcustomer">Tambah</a></button>
+                                <button type="button" class="btn btn-primary pull-right mb-4"><a class="text-white" href="tambahcustomer" style="text-decoration:none">Tambah</a></button>
                             </div>
                             <br><br>
                             <div class="table-responsive">

@@ -41,7 +41,7 @@
                                             <form>
                                                 <div class="card-title">
                                                     <h6>Target kunjungan anda hari ini : </h6><br>
-                                                    <button type="button" class="btn btn-primary pull-right mb-4"><a class="text-white" href="tambahkunjungan">Input Kunjungan</a></button>
+                                                    <button type="button" class="btn btn-primary pull-right mb-4"><a class="text-white" href="tambahkunjungan" style="text-decoration:none">Input Kunjungan</a></button>
                                                 </div>
                                             </form>
                                         </div>
