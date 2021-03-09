@@ -39,14 +39,25 @@
                         <span class="menu-title">Customer</span>
                     </a>
                 </li>
-                <li class="nav-item">
-                    <div class="nav-link d-flex">
-                        <a class="text-white"><i class="mdi mdi-logout"></i></a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </nav>
+                <script language="javascript">
+                  <!--
+                    function logout()
+                    {
+                      tanya=confirm("Apakah anda yakin akan keluar ?")
+                      if (tanya !="0")
+                      {
+                        top.location="../#"
+                    }
+                }
+//-->
+</script>
+
+<li class="nav-item">
+    <div class="nav-link d-flex">
+        <a href="#"onClick="logout()" class="text-white"><i class="mdi mdi-logout"></i></a>
+    </div>
+</li>
+</ul>
 </div>
-
-
+</nav>
+</div>

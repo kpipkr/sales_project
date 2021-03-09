@@ -48,3 +48,7 @@ Route::get('/kunjungan', function () {
 Route::get('/tambahkunjungan', function () {
     return view('tambahkunjungan');
 });
+
+Route::get('/user', function () {
+    return view('user');
+});
